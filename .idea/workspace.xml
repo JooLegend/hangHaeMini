@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="작업 시~작">
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/common/RequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/common/Timestamped.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/HangHaeMiniApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/HangHaeMiniApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/entity/Account.java" afterDir="false" />
-    </list>
+    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="CommonRequestDto, Timestamped 추가" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,6 +138,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="맨처음" />
     <MESSAGE value="작업 시~작" />
-    <option name="LAST_COMMIT_MESSAGE" value="작업 시~작" />
+    <MESSAGE value="CommonRequestDto, Timestamped 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="CommonRequestDto, Timestamped 추가" />
   </component>
 </project>
