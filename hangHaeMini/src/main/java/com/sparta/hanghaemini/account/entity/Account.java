@@ -1,6 +1,8 @@
 package com.sparta.hanghaemini.account.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.sparta.hanghaemini.account.dto.AccountReqDto;
+import com.sparta.hanghaemini.common.Timestamped;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -12,13 +14,14 @@ import javax.persistence.Id;
 @Getter
 @Entity
 @NoArgsConstructor
-public class Account {
+public class Account extends Timestamped {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String userid;
     private String nickname;
+    @JsonIgnore
     private String password;
 
     public Account(AccountReqDto accountReqDto) {

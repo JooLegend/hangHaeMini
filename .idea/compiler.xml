@@ -7,13 +7,13 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/13a394eed5c4f9efb2a6d956e2086f1d81e857d9/lombok-1.18.24.jar" />
         </processorPath>
-        <module name="hangHaeMini.hangHaeMini.main" />
+        <module name="hangHaeMini.hangHaeMini.main~1" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="hangHaeMini.hangHaeMini.main~1" target="11" />
-      <module name="hangHaeMini.hangHaeMini.test~1" target="11" />
-      <module name="hangHaeMini.hangHaeMini" target="11" />
+    <bytecodeTargetLevel target="11">
+      <module name="com.sparta.hangHaeMini" target="11" />
+      <module name="com.sparta.hangHaeMini.main" target="11" />
+      <module name="com.sparta.hangHaeMini.test" target="11" />
       <module name="hangHaeMini.hangHaeMini.main" target="11" />
       <module name="hangHaeMini.hangHaeMini.test" target="11" />
     </bytecodeTargetLevel>

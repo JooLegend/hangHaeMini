@@ -18,7 +18,6 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         Account account = accountRepository.findByNickname(nickname).orElseThrow(
                 () -> new RuntimeException("해당 사용자가 없습니다.")
         );
-
         UserDetailsImpl userDetails = new UserDetailsImpl();
         userDetails.setAccount(account);
         return userDetails;
