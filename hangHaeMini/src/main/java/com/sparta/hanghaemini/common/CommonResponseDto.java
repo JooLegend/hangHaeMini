@@ -12,7 +12,7 @@ public class CommonResponseDto <T>{
     private T data;
     private String error;
 
-    public CommonRequestDto(Boolean success, T data, String error){
+    public CommonResponseDto(Boolean success, T data, String error){
         this.success = success;
         this.data = data;
         this.error = error;
