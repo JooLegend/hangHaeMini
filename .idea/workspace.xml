@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="CommonRequestDto, Timestamped 추가" />
+    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="공통사항 수정" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
