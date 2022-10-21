@@ -13,6 +13,9 @@
     <bytecodeTargetLevel>
       <module name="hangHaeMini.hangHaeMini.main~1" target="11" />
       <module name="hangHaeMini.hangHaeMini.test~1" target="11" />
+      <module name="hangHaeMini.hangHaeMini" target="11" />
+      <module name="hangHaeMini.hangHaeMini.main" target="11" />
+      <module name="hangHaeMini.hangHaeMini.test" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

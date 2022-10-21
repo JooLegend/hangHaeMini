@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/hangHaeMini.iml" filepath="$PROJECT_DIR$/.idea/hangHaeMini.iml" />
+        <module fileurl="file://$PROJECT_DIR$/.idea/modules/hangHaeMini.hangHaeMini.iml" filepath="$PROJECT_DIR$/.idea/modules/hangHaeMini.hangHaeMini.iml" />
+        <module fileurl="file://$PROJECT_DIR$/.idea/modules/hangHaeMini.hangHaeMini.main.iml" filepath="$PROJECT_DIR$/.idea/modules/hangHaeMini.hangHaeMini.main.iml" />
+        <module fileurl="file://$PROJECT_DIR$/.idea/modules/hangHaeMini.hangHaeMini.test.iml" filepath="$PROJECT_DIR$/.idea/modules/hangHaeMini.hangHaeMini.test.iml" />
     </modules>
   </component>
 </project>
