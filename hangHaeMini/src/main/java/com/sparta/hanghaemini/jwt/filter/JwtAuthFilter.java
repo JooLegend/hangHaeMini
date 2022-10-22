@@ -1,12 +1,8 @@
 package com.sparta.hanghaemini.jwt.filter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sparta.hanghaemini.account.entity.Refreshtoken;
-import com.sparta.hanghaemini.account.repository.RefreshtokenRepository;
 import com.sparta.hanghaemini.common.CommonResponseDto;
 import com.sparta.hanghaemini.jwt.util.JwtUtil;
-import io.jsonwebtoken.Claims;
-import io.jsonwebtoken.ExpiredJwtException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -28,25 +24,18 @@ public class JwtAuthFilter extends OncePerRequestFilter {
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
             throws ServletException, IOException {
-        String servletPath = request.getServletPath();
         String accessToken = jwtUtil.getHeaderToken(request);
-
-        if(accessToken != null && !servletPath.equals("/account/logout")){
+        if(accessToken != null){
             int state = jwtUtil.actokenValidation(accessToken);
             String userid = jwtUtil.getClamsFromToken(accessToken).getSubject();
-            if(state == 1){ //엑세스 토큰이 정상일 경우 정상 진행
-                setAuthentication(userid);
-            } else if (state == 2) { //엑세스 토큰이 만료시에
-                Refreshtoken refreshtoken = jwtUtil.getrftoken(userid);
-                if(jwtUtil.actokenValidation(refreshtoken.getRefreshToken()) == 1) {
-                    jwtUtil.changerftoken(userid); //기존 rf토큰이 있으면 교체
-                    response.setHeader(JwtUtil.Access_Token, jwtUtil.createToken(userid, JwtUtil.Access_Token));
-                    setAuthentication(userid);
-                }
+            if (state == 2) { //엑세스 토큰이 만료시에
+                accessToken = jwtUtil.createToken(userid);
             } else {
-                jwtExceptionHandler(response, "login please", HttpStatus.BAD_REQUEST);
+                jwtExceptionHandler(response, "Unsupport Token", HttpStatus.BAD_REQUEST);
                 return;
             }
+            setAuthentication(userid);
+            response.setHeader(JwtUtil.Access_Token, accessToken);
         }
         filterChain.doFilter(request, response);
     }

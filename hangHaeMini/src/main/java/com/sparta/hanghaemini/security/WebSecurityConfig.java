@@ -1,6 +1,5 @@
 package com.sparta.hanghaemini.security;
 
-import com.sparta.hanghaemini.account.repository.RefreshtokenRepository;
 import com.sparta.hanghaemini.jwt.filter.JwtAuthFilter;
 import com.sparta.hanghaemini.jwt.util.JwtUtil;
 import lombok.RequiredArgsConstructor;
