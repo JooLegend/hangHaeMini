@@ -30,8 +30,8 @@ public class JwtUtil {
     private final UserDetailsServiceImpl userDetailsService;
     private final RefreshtokenRepository refreshtokenRepository;
 
-    private static final long Access_Time = 60*1000*10L;
-    private static final long Refresh_Time = 60*1000*15L;
+    private static final long Access_Time = 60*1000*2L;
+    private static final long Refresh_Time = 60*1000*10L;
 
     public static final String Access_Token = "Access_Token";
 
@@ -71,7 +71,7 @@ public class JwtUtil {
     // access토큰 검증기능
     public int actokenValidation(String token){
         try {
-            Jwts.parserBuilder().setSigningKey(key).build().parseClaimsJwt(token);
+            Jwts.parserBuilder().setSigningKey(key).build().parseClaimsJws(token);
             return 1;
         } catch (ExpiredJwtException ex){
             return 2;

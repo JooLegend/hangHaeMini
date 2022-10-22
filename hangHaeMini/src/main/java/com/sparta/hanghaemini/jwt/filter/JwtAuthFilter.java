@@ -23,9 +23,7 @@ import java.io.IOException;
 @Slf4j
 @RequiredArgsConstructor
 public class JwtAuthFilter extends OncePerRequestFilter {
-
     private final JwtUtil jwtUtil;
-
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
@@ -46,7 +44,8 @@ public class JwtAuthFilter extends OncePerRequestFilter {
                     setAuthentication(userid);
                 }
             } else {
-                jwtExceptionHandler(response, "재로그인 해주세요", HttpStatus.BAD_REQUEST);
+                jwtExceptionHandler(response, "login please", HttpStatus.BAD_REQUEST);
+                return;
             }
         }
         filterChain.doFilter(request, response);

@@ -7,6 +7,7 @@ import com.sparta.hanghaemini.account.repository.AccountRepository;
 import com.sparta.hanghaemini.account.repository.RefreshtokenRepository;
 import com.sparta.hanghaemini.common.CommonResponseDto;
 import com.sparta.hanghaemini.jwt.util.JwtUtil;
+import io.jsonwebtoken.Claims;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -108,9 +109,9 @@ public class Accountservice {
     }
 
     @Transactional
-    public ResponseEntity<?> logout(Map<String, String> data){
-        String actk = jwtUtil.getClamsFromToken(data.get(JwtUtil.Access_Token)).getSubject();
-        if(jwtUtil.reporftoken(actk))   refreshtokenRepository.deleteByAccountUserid(actk);
+    public ResponseEntity<?> logout(String actk){
+        String userid = jwtUtil.getClamsFromToken(actk).getSubject();
+        if(jwtUtil.reporftoken(userid))   refreshtokenRepository.deleteByAccountUserid(userid);
         return ResponseEntity
                 .status(HttpStatus.OK)
                 .body(CommonResponseDto.success(null));

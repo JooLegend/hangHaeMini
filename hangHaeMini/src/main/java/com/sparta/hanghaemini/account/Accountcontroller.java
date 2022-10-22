@@ -37,6 +37,6 @@ public class Accountcontroller {
 
     @PostMapping("/logout")
     public ResponseEntity<?> logout(@RequestHeader Map<String, String> data){
-        return accountservice.logout(data);
+        return accountservice.logout(data.get("access_token"));
     }
 }
