@@ -25,14 +25,16 @@ public class JwtAuthFilter extends OncePerRequestFilter {
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
             throws ServletException, IOException {
         String accessToken = jwtUtil.getHeaderToken(request);
+
         if(accessToken != null){
             int state = jwtUtil.actokenValidation(accessToken);
+            if(state == 3){
+                jwtExceptionHandler(response, "Unsupport Token", HttpStatus.BAD_REQUEST);
+                return;
+            }
             String userid = jwtUtil.getClamsFromToken(accessToken).getSubject();
             if (state == 2) { //엑세스 토큰이 만료시에
                 accessToken = jwtUtil.createToken(userid);
-            } else {
-                jwtExceptionHandler(response, "Unsupport Token", HttpStatus.BAD_REQUEST);
-                return;
             }
             setAuthentication(userid);
             response.setHeader(JwtUtil.Access_Token, accessToken);

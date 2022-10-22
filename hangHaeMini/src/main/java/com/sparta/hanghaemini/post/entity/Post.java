@@ -18,8 +18,8 @@ public class Post extends Timestamped {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long postId;
 
-    @Column(nullable = false)
-    private String nickname;
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Account account;
 
     @Column(nullable = false)
     private String title;
@@ -30,30 +30,13 @@ public class Post extends Timestamped {
     @Column(nullable = false)
     private String imgUrl;
 
-    public Post(PostRequestDto postRequestDto) {
-        this.nickname = postRequestDto.getNickname();
-        this.title = postRequestDto.getTitle();
-        this.content = postRequestDto.getContents();
-        this.imgUrl = postRequestDto.getImgUrl();
-    }
+//    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "post")
+//    private List<Comment> comments;
 
     public Post(PostRequestDto postRequestDto, Account account) {
-        this.nickname = postRequestDto.getNickname();
+        this.account = account;
         this.title = postRequestDto.getTitle();
-        this.content = postRequestDto.getContents();
-        this.nickname = account.getNickname();
+        this.content = postRequestDto.getContent();
+        this.imgUrl = postRequestDto.getImgUrl();
     }
-
-    public Post(Long id, Account account) {
-        this.postId = id;
-        this.nickname = account.getNickname();
-    }
-
-
-    public void update(PostRequestDto postRequestDto) {
-        this.nickname = postRequestDto.getNickname();
-        this.title = postRequestDto.getTitle();
-        this.content = postRequestDto.getContents();
-    }
-
 }

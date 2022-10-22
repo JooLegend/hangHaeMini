@@ -1,11 +1,12 @@
 package com.sparta.hanghaemini.post.dto;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @Getter
+@NoArgsConstructor
 public class PostRequestDto {
-    private String nickname;
     private String title;
-    private String contents;
+    private String content;
     private String imgUrl;
 }
