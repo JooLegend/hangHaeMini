@@ -7,7 +7,6 @@ import com.sparta.hanghaemini.account.repository.AccountRepository;
 import com.sparta.hanghaemini.account.repository.RefreshtokenRepository;
 import com.sparta.hanghaemini.common.CommonResponseDto;
 import com.sparta.hanghaemini.jwt.util.JwtUtil;
-import io.jsonwebtoken.Claims;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -93,8 +92,9 @@ public class Accountservice {
                 throw new RuntimeException("비밀번호 일치하지 않음");
 
             String userid = account.getUserid();
+            //rf토큰이 없으면
             if(!jwtUtil.reporftoken(userid)) response.setHeader(JwtUtil.Access_Token, jwtUtil.createAllToken(userid));
-            else{
+            else{//rf토큰이 있으면
                 response.setHeader(JwtUtil.Access_Token, jwtUtil.createToken(userid, JwtUtil.Access_Token));
                 jwtUtil.changerftoken(userid);
             }

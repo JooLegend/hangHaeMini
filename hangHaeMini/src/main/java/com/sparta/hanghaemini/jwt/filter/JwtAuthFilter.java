@@ -1,12 +1,8 @@
 package com.sparta.hanghaemini.jwt.filter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sparta.hanghaemini.account.entity.Refreshtoken;
-import com.sparta.hanghaemini.account.repository.RefreshtokenRepository;
 import com.sparta.hanghaemini.common.CommonResponseDto;
 import com.sparta.hanghaemini.jwt.util.JwtUtil;
-import io.jsonwebtoken.Claims;
-import io.jsonwebtoken.ExpiredJwtException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -33,20 +29,22 @@ public class JwtAuthFilter extends OncePerRequestFilter {
 
         if(accessToken != null && !servletPath.equals("/account/logout")){
             int state = jwtUtil.actokenValidation(accessToken);
-            String userid = jwtUtil.getClamsFromToken(accessToken).getSubject();
-            if(state == 1){ //엑세스 토큰이 정상일 경우 정상 진행
-                setAuthentication(userid);
-            } else if (state == 2) { //엑세스 토큰이 만료시에
-                Refreshtoken refreshtoken = jwtUtil.getrftoken(userid);
-                if(jwtUtil.actokenValidation(refreshtoken.getRefreshToken()) == 1) {
-                    jwtUtil.changerftoken(userid); //기존 rf토큰이 있으면 교체
-                    response.setHeader(JwtUtil.Access_Token, jwtUtil.createToken(userid, JwtUtil.Access_Token));
-                    setAuthentication(userid);
-                }
-            } else {
-                jwtExceptionHandler(response, "login please", HttpStatus.BAD_REQUEST);
+            if(state == 3){
+                jwtExceptionHandler(response, "Unsorport Token", HttpStatus.BAD_REQUEST);
                 return;
             }
+            String userid = jwtUtil.getClamsFromToken(accessToken).getSubject();
+            if (state == 2) { //엑세스 토큰이 만료시에
+                String refreshtoken = jwtUtil.getrftoken(userid).getRefreshToken();
+                if(jwtUtil.actokenValidation(refreshtoken) == 1) { //rf토큰이 유효하다면
+                    jwtUtil.changerftoken(userid); //기존 rf토큰이 있으면 교체
+                    response.setHeader(JwtUtil.Access_Token, jwtUtil.createToken(userid, JwtUtil.Access_Token));
+                } else{ //rf토큰 만료시
+                    jwtExceptionHandler(response, "login please", HttpStatus.BAD_REQUEST);
+                    return;
+                }
+            }
+            setAuthentication(userid);
         }
         filterChain.doFilter(request, response);
     }
