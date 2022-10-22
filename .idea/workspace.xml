@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="logout만 하면됨">
+    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="HEADER 일정하지 않은 버전">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1_Post_Joo" />
+        <entry key="$PROJECT_DIR$" value="account" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -181,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666457358970</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="HEADER 일정하지 않은 버전">
+      <created>1666459062003</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666459062003</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +225,8 @@
     <MESSAGE value="CommonResponseDto 이름 수정" />
     <MESSAGE value="줄기 테스트" />
     <MESSAGE value="logout만 하면됨" />
-    <option name="LAST_COMMIT_MESSAGE" value="logout만 하면됨" />
+    <MESSAGE value="HEADER 일정하지 않은 버전" />
+    <option name="LAST_COMMIT_MESSAGE" value="HEADER 일정하지 않은 버전" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
