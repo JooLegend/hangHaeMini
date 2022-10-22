@@ -14,8 +14,8 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     private final AccountRepository accountRepository;
 
     @Override
-    public UserDetails loadUserByUsername(String nickname) throws UsernameNotFoundException {
-        Account account = accountRepository.findByNickname(nickname).orElseThrow(
+    public UserDetails loadUserByUsername(String userid) throws UsernameNotFoundException {
+        Account account = accountRepository.findAccountByUserid(userid).orElseThrow(
                 () -> new RuntimeException("해당 사용자가 없습니다.")
         );
         UserDetailsImpl userDetails = new UserDetailsImpl();

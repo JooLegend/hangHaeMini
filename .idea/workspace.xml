@@ -4,10 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="CommonResponseDto 이름 수정">
+    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="줄기 테스트">
+      <change afterPath="$PROJECT_DIR$/hangHaeMini/Test.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/Accountcontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/Accountservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/filter/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/dto/LoginResDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/dto/LoginResDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/HangHaeMiniApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/HangHaeMiniApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/dto/AccountReqDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/dto/AccountReqDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/entity/Refreshtoken.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/entity/Refreshtoken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/repository/RefreshtokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/repository/RefreshtokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/common/CommonResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/common/CommonResponseDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/user/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/user/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +36,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/hangHaeMini">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -39,7 +56,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTTP Request" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -65,6 +84,12 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -75,10 +100,32 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;da3efeb99c9541e7f10132a8268ab5aa&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;64a99998001ddf45a4794cc5c58aa0d4&quot;
   }
 }</component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.HangHaeMiniApplication">
+    <configuration name="Test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/hangHaeMini/Test.http" requestIdentifier="#1" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="Test | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/hangHaeMini/Test.http" index="2" requestIdentifier="#2" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="Test | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/hangHaeMini/Test.http" index="3" requestIdentifier="#3" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="Test | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/hangHaeMini/Test.http" index="4" requestIdentifier="#4" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="Test | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/hangHaeMini/Test.http" index="5" requestIdentifier="#5" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
     <configuration name="HangHaeMiniApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hangHaeMini.hangHaeMini.main~1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.hanghaemini.HangHaeMiniApplication" />
@@ -93,6 +140,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP 요청.Test | #5" />
+        <item itemvalue="HTTP 요청.Test | #4" />
+        <item itemvalue="HTTP 요청.Test | #3" />
+        <item itemvalue="HTTP 요청.Test | #2" />
+        <item itemvalue="HTTP 요청.Test | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -106,6 +162,12 @@
       <workItem from="1666339630042" duration="7609000" />
       <workItem from="1666352888706" duration="145000" />
       <workItem from="1666353064685" duration="332000" />
+      <workItem from="1666367334870" duration="36000" />
+      <workItem from="1666367401148" duration="3495000" />
+      <workItem from="1666401079458" duration="17894000" />
+      <workItem from="1666423184726" duration="73000" />
+      <workItem from="1666425199374" duration="2557000" />
+      <workItem from="1666427787186" duration="13759000" />
     </task>
     <task id="LOCAL-00001" summary="맨처음">
       <created>1666316222227</created>
@@ -128,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666356158687</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="줄기 테스트">
+      <created>1666356621472</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666356621472</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +220,33 @@
     <MESSAGE value="작업 시~작" />
     <MESSAGE value="CommonRequestDto, Timestamped 추가" />
     <MESSAGE value="CommonResponseDto 이름 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="CommonResponseDto 이름 수정" />
+    <MESSAGE value="줄기 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="줄기 테스트" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/Accountservice.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/Accountservice.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/filter/JwtAuthFilter.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.aop.framework.JdkDynamicAopProxy" memberName="proxiedInterfaces" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

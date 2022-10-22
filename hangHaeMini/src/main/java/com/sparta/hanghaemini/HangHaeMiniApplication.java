@@ -10,5 +10,4 @@ public class HangHaeMiniApplication {
     public static void main(String[] args) {
         SpringApplication.run(HangHaeMiniApplication.class, args);
     }
-
 }

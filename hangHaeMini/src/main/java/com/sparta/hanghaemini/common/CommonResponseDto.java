@@ -12,9 +12,17 @@ public class CommonResponseDto <T>{
     private T data;
     private String error;
 
-    public CommonResponseDto(Boolean success, T data, String error){
-        this.success = success;
+    public CommonResponseDto(boolean b, T data, String o) {
+        this.success = b;
         this.data = data;
-        this.error = error;
+        this.error = o;
+    }
+
+    public static <T> CommonResponseDto <T> success(T data){
+        return new CommonResponseDto<>(true, data, null);
+    }
+
+    public static <T> CommonResponseDto <T> fail(String msg){
+        return new CommonResponseDto<>(false, null, msg);
     }
 }
