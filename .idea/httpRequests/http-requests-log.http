@@ -1,0 +1,560 @@
+POST http://localhost:8080/api/account/login
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "password": "Qlqjs134"
+}
+
+<> 2022-10-23T052318.200.json
+
+###
+
+POST http://localhost:8080/api/account/login
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "password": "Qlqjs134"
+}
+
+<> 2022-10-23T052302.200.json
+
+###
+
+POST http://localhost:8080/api/account/signup
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "nickname": "jasun12",
+  "password": "Qlqjs134",
+  "passwordconfirm" : "Qlqjs134"
+}
+
+<> 2022-10-23T052257.200.json
+
+###
+
+GET http://localhost:8080/api/show/post
+
+<> 2022-10-23T051127.200.json
+
+###
+
+GET http://localhost:8080/api/show/post/1
+
+<> 2022-10-23T051104.200.json
+
+###
+
+PATCH http://localhost:8080/api/post/1
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2OTA5MSwiaWF0IjoxNjY2NDY4OTcxfQ.vs4bKyaql6dS4kKPfLxHuZp5a3AGVx6kp5YfS10uasI
+Content-Type: application/json
+
+{
+  "content" : "수정한 내용"
+}
+
+<> 2022-10-23T051042.200.json
+
+###
+
+POST http://localhost:8080/api/post
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2OTUyMCwiaWF0IjoxNjY2NDY5NDAwfQ.TuFJViD-xgruT_jX05B2WP4sDF_tq6vYy37wRkRT4Rs
+Content-Type: application/json
+
+{
+  "title" : "영화제목",
+  "content" : "작성내용",
+  "imgUrl" : "https://img.sbs.co.kr/sdf/2018/sdf.jpg"
+}
+
+<> 2022-10-23T051022.200.json
+
+###
+
+POST http://localhost:8080/api/post
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4ssDFQSsfSFSwiaWF0IjoxNjY2NDY4OTcxfQ.vs4bKyaql6dS4kKPfLxHuZp5a3AGVx6kp5YfS10uasI
+Content-Type: application/json
+
+{
+  "title" : "영화제목",
+  "content" : "작성내용",
+  "imgUrl" : "https://img.sbs.co.kr/sdf/2018/sdf.jpg"
+}
+
+<> 2022-10-23T051013.400.json
+
+###
+
+POST http://localhost:8080/api/account/login
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "password": "Qlqjs134"
+}
+
+<> 2022-10-23T051000.200.json
+
+###
+
+POST http://localhost:8080/api/account/signup
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "nickname": "jasun12",
+  "password": "Qlqjs134",
+  "passwordconfirm" : "Qlqjs134"
+}
+
+<> 2022-10-23T050954.200.json
+
+###
+
+POST http://localhost:8080/api/post
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4ssDFQSsfSFSwiaWF0IjoxNjY2NDY4OTcxfQ.vs4bKyaql6dS4kKPfLxHuZp5a3AGVx6kp5YfS10uasI
+Content-Type: application/json
+
+{
+  "title" : "영화제목",
+  "content" : "작성내용",
+  "imgUrl" : "https://img.sbs.co.kr/sdf/2018/sdf.jpg"
+}
+
+<> 2022-10-23T050924.400.json
+
+###
+
+POST http://localhost:8080/api/account/signup
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "nickname": "jasun12",
+  "password": "Qlqjs134",
+  "passwordconfirm" : "Qlqjs134"
+}
+
+<> 2022-10-23T050905.200.json
+
+###
+
+POST http://localhost:8080/api/post
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4ssDFQSsfSFSwiaWF0IjoxNjY2NDY4OTcxfQ.vs4bKyaql6dS4kKPfLxHuZp5a3AGVx6kp5YfS10uasI
+Content-Type: application/json
+
+{
+  "title" : "영화제목",
+  "content" : "작성내용",
+  "imgUrl" : "https://img.sbs.co.kr/sdf/2018/sdf.jpg"
+}
+
+###
+
+POST http://localhost:8080/api/post
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4ssDFQSsfSFSwiaWF0IjoxNjY2NDY4OTcxfQ.vs4bKyaql6dS4kKPfLxHuZp5a3AGVx6kp5YfS10uasI
+Content-Type: application/json
+
+{
+  "title" : "영화제목",
+  "content" : "작성내용",
+  "imgUrl" : "https://img.sbs.co.kr/sdf/2018/sdf.jpg"
+}
+
+###
+
+POST http://localhost:8080/api/post
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2OTA5MSwiaWF0IjoxNjY2NDY4OTcxfQ.vs4bKyaql6dS4kKPfLxHuZp5a3AGVx6kp5YfS10uasI
+Content-Type: application/json
+
+{
+  "title" : "영화제목",
+  "content" : "작성내용",
+  "imgUrl" : "https://img.sbs.co.kr/sdf/2018/sdf.jpg"
+}
+
+###
+
+GET http://localhost:8080/api/show/post
+
+<> 2022-10-23T050341.200.json
+
+###
+
+GET http://localhost:8080/api/show/post/1
+
+<> 2022-10-23T050322.200.json
+
+###
+
+PATCH http://localhost:8080/api/post/1
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2OTA5MSwiaWF0IjoxNjY2NDY4OTcxfQ.vs4bKyaql6dS4kKPfLxHuZp5a3AGVx6kp5YfS10uasI
+Content-Type: application/json
+
+{
+  "content" : "수정한 내용"
+}
+
+<> 2022-10-23T050307.200.json
+
+###
+
+POST http://localhost:8080/api/post
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2OTA5MSwiaWF0IjoxNjY2NDY4OTcxfQ.vs4bKyaql6dS4kKPfLxHuZp5a3AGVx6kp5YfS10uasI
+Content-Type: application/json
+
+{
+  "title" : "영화제목",
+  "content" : "작성내용",
+  "imgUrl" : "https://img.sbs.co.kr/sdf/2018/sdf.jpg"
+}
+
+<> 2022-10-23T050301.200.json
+
+###
+
+POST http://localhost:8080/api/account/login
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "password": "Qlqjs134"
+}
+
+<> 2022-10-23T050251.200.json
+
+###
+
+POST http://localhost:8080/api/post
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2OsdfsdfdsfsdfsdfY4NzE1fQ.5eLKBLvsEBQLOkJV2Fd0a1tF4iX53sUIdsbwy_NLXuo
+Content-Type: application/json
+
+{
+  "title" : "영화제목",
+  "content" : "작성내용",
+  "imgUrl" : "https://img.sbs.co.kr/sdf/2018/sdf.jpg"
+}
+
+###
+
+POST http://localhost:8080/api/post
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2OsdfsdfdsfsdfsdfY4NzE1fQ.5eLKBLvsEBQLOkJV2Fd0a1tF4iX53sUIdsbwy_NLXuo
+Content-Type: application/json
+
+{
+  "title" : "영화제목",
+  "content" : "작성내용",
+  "imgUrl" : "https://img.sbs.co.kr/sdf/2018/sdf.jpg"
+}
+
+###
+
+POST http://localhost:8080/api/account/login
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "password": "Qlqjs134"
+}
+
+<> 2022-10-23T050120.200.json
+
+###
+
+POST http://localhost:8080/api/account/signup
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "nickname": "jasun12",
+  "password": "Qlqjs134",
+  "passwordconfirm" : "Qlqjs134"
+}
+
+<> 2022-10-23T050115.200.json
+
+###
+
+GET http://localhost:8080/api/show/post
+
+<> 2022-10-23T050016.200.json
+
+###
+
+GET http://localhost:8080/api/show/post
+
+<> 2022-10-23T050009.200.json
+
+###
+
+POST http://localhost:8080/api/post
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2ODgzNSwiaWF0IjoxNjY2NDY4NzE1fQ.5eLKBLvsEBQLOkJV2Fd0a1tF4iX53sUIdsbwy_NLXuo
+Content-Type: application/json
+
+{
+  "title" : "영화제목",
+  "content" : "작성내용",
+  "imgUrl" : "https://img.sbs.co.kr/sdf/2018/sdf.jpg"
+}
+
+<> 2022-10-23T050003.200.json
+
+###
+
+GET http://localhost:8080/api/show/post
+
+<> 2022-10-23T045952.200.json
+
+###
+
+GET http://localhost:8080/api/show/post/2
+
+<> 2022-10-23T045941.200.json
+
+###
+
+GET http://localhost:8080/api/show/post/1
+
+<> 2022-10-23T045929.500.json
+
+###
+
+POST http://localhost:8080/api/post
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2ODgzNSwiaWF0IjoxNjY2NDY4NzE1fQ.5eLKBLvsEBQLOkJV2Fd0a1tF4iX53sUIdsbwy_NLXuo
+Content-Type: application/json
+
+{
+  "title" : "영화제목",
+  "content" : "작성내용",
+  "imgUrl" : "https://img.sbs.co.kr/sdf/2018/sdf.jpg"
+}
+
+<> 2022-10-23T045908.200.json
+
+###
+
+DELETE http://localhost:8080/api/post/1
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2ODgzNSwiaWF0IjoxNjY2NDY4NzE1fQ.5eLKBLvsEBQLOkJV2Fd0a1tF4iX53sUIdsbwy_NLXuo
+
+<> 2022-10-23T045901.200.json
+
+###
+
+PATCH http://localhost:8080/api/post/1
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2ODgzNSwiaWF0IjoxNjY2NDY4NzE1fQ.5eLKBLvsEBQLOkJV2Fd0a1tF4iX53sUIdsbwy_NLXuo
+Content-Type: application/json
+
+{
+  "content" : "수정한 내용"
+}
+
+<> 2022-10-23T045852.200.json
+
+###
+
+POST http://localhost:8080/api/post
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2ODgzNSwiaWF0IjoxNjY2NDY4NzE1fQ.5eLKBLvsEBQLOkJV2Fd0a1tF4iX53sUIdsbwy_NLXuo
+Content-Type: application/json
+
+{
+  "title" : "영화제목",
+  "content" : "작성내용",
+  "imgUrl" : "https://img.sbs.co.kr/sdf/2018/sdf.jpg"
+}
+
+<> 2022-10-23T045843.200.json
+
+###
+
+POST http://localhost:8080/api/account/login
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "password": "Qlqjs134"
+}
+
+<> 2022-10-23T045835.200.json
+
+###
+
+POST http://localhost:8080/api/account/signup
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "nickname": "jasun12",
+  "password": "Qlqjs134",
+  "passwordconfirm" : "Qlqjs134"
+}
+
+<> 2022-10-23T045830.200.json
+
+###
+
+GET http://localhost:8080/api/show/post
+
+<> 2022-10-23T045303.200.json
+
+###
+
+GET http://localhost:8080/api/show/post/1
+
+<> 2022-10-23T045247.500.json
+
+###
+
+DELETE http://localhost:8080/api/post/1
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2NzE3MywiaWF0IjoxNjY2NDY3MDUzfQ.uvFNsZ3T8G85Ol0KtC-aBJ5GyERHfnDHL4mkUNF_1Sc
+
+<> 2022-10-23T045141.200.json
+
+###
+
+PATCH http://localhost:8080/api/post/1
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2NzQ3NSwiaWF0IjoxNjY2NDY3MzU1fQ.0IjGK6Pu_eDQCmojYq9xRELVAVpbQI9ds2WreYb356Q
+Content-Type: application/json
+
+{
+  "content" : "수정한 내용"
+}
+
+<> 2022-10-23T045114.200.json
+
+###
+
+POST http://localhost:8080/api/post
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2ODI3MCwiaWF0IjoxNjY2NDY4MTUwfQ.bC7jxCJ2go9OWHQ3jtV1cFvIzR-gOoj3x8qat8qxvoA
+Content-Type: application/json
+
+{
+  "title" : "영화제목",
+  "content" : "작성내용",
+  "imgUrl" : "https://img.sbs.co.kr/sdf/2018/sdf.jpg"
+}
+
+<> 2022-10-23T044920.200.json
+
+###
+
+POST http://localhost:8080/api/account/login
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "password": "Qlqjs134"
+}
+
+<> 2022-10-23T044910.200.json
+
+###
+
+POST http://localhost:8080/api/account/signup
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "nickname": "jasun12",
+  "password": "Qlqjs134",
+  "passwordconfirm" : "Qlqjs134"
+}
+
+<> 2022-10-23T044907.200.json
+
+###
+
+POST http://localhost:8080/api/post
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2ODE2NywiaWF0IjoxNjY2NDY4MDQ3fQ.A_LkfFSTVqyjHU3yTL3AKFig634sp1wOuifIy0y05g4
+Content-Type: application/json
+
+{
+  "title" : "영화제목",
+  "cotent" : "작성내용",
+  "imgUrl" : "https://img.sbs.co.kr/sdf/2018/sdf.jpg"
+}
+
+<> 2022-10-23T044737.500.json
+
+###
+
+POST http://localhost:8080/api/account/login
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "password": "Qlqjs134"
+}
+
+<> 2022-10-23T044727.200.json
+
+###
+
+POST http://localhost:8080/api/account/signup
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "nickname": "jasun12",
+  "password": "Qlqjs134",
+  "passwordconfirm" : "Qlqjs134"
+}
+
+<> 2022-10-23T044724.200.json
+
+###
+
+POST http://localhost:8080/api/account/login
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "password": "Qlqjs134"
+}
+
+<> 2022-10-23T044143.200.json
+
+###
+
+POST http://localhost:8080/api/account/signup
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "nickname": "jasun12",
+  "password": "Qlqjs134",
+  "passwordconfirm" : "Qlqjs134"
+}
+
+<> 2022-10-23T044139.200.json
+
+###
+
+POST http://localhost:8080/api/post
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2NzU3MywiaWF0IjoxNjY2NDY3NDUzfQ.vAfqHQx2oAO6exNCEY3nV2zTBcm7aV8v1f1uNzLpDDk
+Content-Type: application/json
+
+{
+  "title" : "영화제목",
+  "cotent" : "작성내용",
+  "imgUrl" : "https://img.sbs.co.kr/sdf/2018/sdf.jpg"
+}
+
+<> 2022-10-23T043823.500.json
+
+###
+
+POST http://localhost:8080/api/account/login
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "password": "Qlqjs134"
+}
+
+<> 2022-10-23T043733.200.json
+
+###
+
