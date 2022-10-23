@@ -90,7 +90,7 @@
   }
 }</component>
   <component name="RunManager" selected="Spring Boot.HangHaeMiniApplication">
-    <configuration name="generated-requests | 로그인" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="로그인" runType="단일 요청 실행">
+    <configuration name="generated-requests | 회원가입" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="회원가입" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="단일 요청 실행">
@@ -102,7 +102,7 @@
     <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | 회원가입" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="회원가입" runType="단일 요청 실행">
+    <configuration name="generated-requests | 로그인" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="로그인" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="HangHaeMiniApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -122,7 +122,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="HTTP 요청.generated-requests | 로그인" />
-        <item itemvalue="HTTP 요청.generated-requests | 회원가입" />
         <item itemvalue="HTTP 요청.generated-requests | #5" />
         <item itemvalue="HTTP 요청.generated-requests | #4" />
         <item itemvalue="HTTP 요청.generated-requests | #3" />
@@ -147,6 +146,7 @@
       <workItem from="1666423184726" duration="73000" />
       <workItem from="1666425199374" duration="2557000" />
       <workItem from="1666427787186" duration="13759000" />
+      <workItem from="1666493771454" duration="860000" />
     </task>
     <task id="LOCAL-00001" summary="맨처음">
       <created>1666316222227</created>
@@ -183,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666457358970</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Account 원래 버전 이상한 토큰에 대한 대응기능 수정">
+      <created>1666470279594</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666470279594</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,19 +201,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="account" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -220,7 +215,8 @@
     <MESSAGE value="CommonResponseDto 이름 수정" />
     <MESSAGE value="줄기 테스트" />
     <MESSAGE value="logout만 하면됨" />
-    <option name="LAST_COMMIT_MESSAGE" value="logout만 하면됨" />
+    <MESSAGE value="Account 원래 버전 이상한 토큰에 대한 대응기능 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="Account 원래 버전 이상한 토큰에 대한 대응기능 수정" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
