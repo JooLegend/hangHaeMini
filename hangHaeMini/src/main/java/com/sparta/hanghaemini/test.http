@@ -1,0 +1,104 @@
+###회원가입
+POST http://localhost:8080/api/account/signup
+Content-Type: application/json
+
+{
+  "nickname": "sj12345",
+  "password": "1234asdfg1@"
+}
+
+###로그인
+POST http://localhost:8080/api/account/signup/login
+Content-Type: application/json
+
+{
+  "nickname": "sj12345",
+  "password": "1234asdfg1@"
+}
+
+###글 쓰기
+POST http://localhost:8080/api/posts
+#Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTY2NjAyNjMyMn0.849rvU9eZewnJpvO70z80KOwbMJ9AjxkoF1rvYfTA8w3o1gu9SttG5kF3uaKGxUdgzJcSFTI49lHS_l8MW7VRg
+Content-Type: application/json
+
+{
+  "nickname": "제목22",
+  "title": "제목22",
+  "content": "컨텐츠22",
+  "imgUrl": "제목22"
+}
+
+###글 수정
+PUT http://localhost:8080/dev/post/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTY2NjAyNjMyMn0.849rvU9eZewnJpvO70z80KOwbMJ9AjxkoF1rvYfTA8w3o1gu9SttG5kF3uaKGxUdgzJcSFTI49lHS_l8MW7VRg
+Content-Type: application/json
+
+{
+  "nickname": "제목22",
+  "title": "제목22",
+  "content": "컨텐츠22",
+  "imgUrl": "제목22"
+}
+
+### 글삭제
+DELETE http://localhost:8080/dev/post/2
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTY2NjAyNjMyMn0.849rvU9eZewnJpvO70z80KOwbMJ9AjxkoF1rvYfTA8w3o1gu9SttG5kF3uaKGxUdgzJcSFTI49lHS_l8MW7VRg
+
+
+###전체 글 불러오기
+GET http://localhost:8080/dev/auth/post
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTY2NjAyNjMyMn0.849rvU9eZewnJpvO70z80KOwbMJ9AjxkoF1rvYfTA8w3o1gu9SttG5kF3uaKGxUdgzJcSFTI49lHS_l8MW7VRg
+
+### url
+PUT http://localhost:8080/dev/auth/postUrl
+Content-Type: application/json
+
+{
+  "title": "제목",
+  "content" : "내용",
+  "imgUrl" : "https://blog.kakaocdn.net/dn/cZsyTw/btq0u5VBWge/F7xmauYA6r8nnbXSz2vJhK/img.png"
+}
+
+###댓글쓰기
+POST http://localhost:8080/dev/comment
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTY2NjAyNjMyMn0.849rvU9eZewnJpvO70z80KOwbMJ9AjxkoF1rvYfTA8w3o1gu9SttG5kF3uaKGxUdgzJcSFTI49lHS_l8MW7VRg
+Content-Type: application/json
+
+{
+  "postId": 1,
+  "comments": "댓글댓글입니다"
+}
+
+###댓글 수정
+PUT http://localhost:8080/dev/comment/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTY2NjAyNjMyMn0.849rvU9eZewnJpvO70z80KOwbMJ9AjxkoF1rvYfTA8w3o1gu9SttG5kF3uaKGxUdgzJcSFTI49lHS_l8MW7VRg
+Content-Type: application/json
+
+{
+  "postId": 1,
+  "comments": "댓글22입니다"
+}
+
+###댓글 삭제
+DELETE http://localhost:8080/dev/comment/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTY2NjAxMzYwMn0.zskkwx_KqCZftUbGrwHvnycQYwlpd16Yvy_WqeasNun2vD4YpxCA06Y3m1qqcCh0ZOZkKaDcH3BvEiSgPNF_Og
+Content-Type: application/json
+
+{
+  "postId": 1,
+  "comments": "댓글22입니다"
+}
+
+###일반API요청
+GET http://localhost:8080/member/me
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTY2NTY2NjkyMn0.ldhqr7AAedIvhqFpNsJlr0lgCV48npbPC0FMTpjyTQO5ikKg98Ww5H47e85U_EWdpQc0G3cKVWp435ngjcPZQg
+
+###토큰 재발급
+POST http://localhost:8080/auth/reissue
+Content-Type: application/json
+
+{
+  "accessToken": " eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiYXV0aCI6IlJPTEVfVVNFUiIsImV4cCI6MTY2NTYxNDEyNn0.AbiE7eFd5l7pPvZycIdqPUBnsimMkGlsXlLoMWIq3DwxVfdGxb8bOKIDy0j-2DbUC1lLAFBJF_nsihxJXD7-Uw",
+  "refreshToken": "eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2NjYyMTcxMjZ9.5RyEhptEeD-0kJQ7SEDISCgnEPZVJlivVouqM4DQ5YiUXFzDvHu4L8dYSX7UU5C5igwhRasa27ExyoeO-W_pDQ"
+}
+
