@@ -94,7 +94,7 @@
       <recent name="C:\Users\rbqja\hanhea99\hangHaeMini\hangHaeMini" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.HangHaeMiniApplication (1)">
+  <component name="RunManager" selected="Gradle.hangHaeMini [build]">
     <configuration name="hangHaeMini [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -150,9 +150,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.hangHaeMini [build]" />
         <item itemvalue="HTTP 요청.Test | #4" />
         <item itemvalue="HTTP 요청.Test | #3" />
-        <item itemvalue="Gradle.hangHaeMini [build]" />
         <item itemvalue="HTTP 요청.generated-requests | post 상세페이지" />
         <item itemvalue="HTTP 요청.generated-requests | ##########################################################################################" />
       </list>
