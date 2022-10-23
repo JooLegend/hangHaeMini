@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="Post 병합">
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/aws.properties" afterDir="false" />
+    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="체크아웃전 저장(의미없는)">
+      <change afterPath="$PROJECT_DIR$/hangHaeMini/hangHaeMini-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/resources/application.properties" afterDir="false" />
@@ -32,6 +32,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="hangHaeMini" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hangHaeMini" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hangHaeMini" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -91,7 +102,28 @@
     "spring.configuration.checksum": "64a99998001ddf45a4794cc5c58aa0d4"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.HangHaeMiniApplication (1)">
+  <component name="RunManager" selected="Gradle.hangHaeMini [build]">
+    <configuration name="hangHaeMini [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hangHaeMini" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="generated-requests | 로그인" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="로그인" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
@@ -139,6 +171,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.hangHaeMini [build]" />
         <item itemvalue="HTTP 요청.generated-requests | 메인페이지의 포스트 정보 불러오기" />
         <item itemvalue="HTTP 요청.generated-requests | post 상세페이지" />
         <item itemvalue="HTTP 요청.generated-requests | ##########################################################################################" />
@@ -223,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666461756556</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="체크아웃전 저장(의미없는)">
+      <created>1666495979930</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666495979930</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +304,8 @@
     <MESSAGE value="HEADER 일정한 버전" />
     <MESSAGE value="HEADER 일정한 계정부분 완료" />
     <MESSAGE value="Post 병합" />
-    <option name="LAST_COMMIT_MESSAGE" value="Post 병합" />
+    <MESSAGE value="체크아웃전 저장(의미없는)" />
+    <option name="LAST_COMMIT_MESSAGE" value="체크아웃전 저장(의미없는)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
