@@ -52,11 +52,10 @@ public class WebSecurityConfig{
 
         http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 
-//        http.authorizeRequests()
-//                .antMatchers("/account/**").permitAll()
-//                .antMatchers(HttpMethod.GET,"/show/**").permitAll()
-//                .anyRequest().authenticated()
-//                .and().addFilterBefore(new JwtAuthFilter(jwtUtil), UsernamePasswordAuthenticationFilter.class);
+        http.authorizeRequests().antMatchers("/account/**").permitAll();
+        http.authorizeRequests().antMatchers(HttpMethod.GET,"/show/**").permitAll();
+        http.authorizeRequests().anyRequest().authenticated();
+        http.addFilterBefore(new JwtAuthFilter(jwtUtil), UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
     }
