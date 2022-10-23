@@ -26,8 +26,6 @@ import java.util.List;
 
 @Configuration
 @EnableWebSecurity
-@ConditionalOnDefaultWebSecurity
-@ConditionalOnWebApplication(type = ConditionalOnWebApplication.Type.SERVLET)
 @RequiredArgsConstructor
 public class WebSecurityConfig{
 
@@ -44,7 +42,6 @@ public class WebSecurityConfig{
     }
 
     @Bean
-    @Order(SecurityProperties.BASIC_AUTH_ORDER)
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.csrf().disable();
 
