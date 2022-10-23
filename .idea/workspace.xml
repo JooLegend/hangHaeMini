@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="account" />
+        <entry key="$PROJECT_DIR$" value="account_ver2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -105,7 +104,7 @@
       <recent name="C:\Users\rbqja\hanhea99\hangHaeMini\hangHaeMini" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.hangHaeMini [build]">
+  <component name="RunManager" selected="Spring Boot.HangHaeMiniApplication (1)">
     <configuration name="hangHaeMini [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -190,7 +189,7 @@
       <workItem from="1666353491977" duration="4604000" />
       <workItem from="1666407940178" duration="8405000" />
       <workItem from="1666521698524" duration="1110000" />
-      <workItem from="1666524842213" duration="904000" />
+      <workItem from="1666524842213" duration="1675000" />
     </task>
     <task id="LOCAL-00001" summary="맨처음">
       <created>1666316222227</created>
@@ -318,7 +317,28 @@
       <option name="project" value="LOCAL" />
       <updated>1666522737939</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
+      <created>1666525926973</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1666525926973</updated>
+    </task>
+    <task id="LOCAL-00020" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
+      <created>1666525977402</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1666525977402</updated>
+    </task>
+    <task id="LOCAL-00021" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
+      <created>1666526093084</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1666526093084</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
