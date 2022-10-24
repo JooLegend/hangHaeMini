@@ -1,0 +1,39 @@
+###
+POST http://localhost:8080/api/account/checkname
+Content-Type: application/json
+
+{
+  "nickname": "jasun12"
+}
+
+###
+POST http://localhost:8080/api/account/checkid
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1"
+}
+
+###
+POST http://localhost:8080/api/account/signup
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "nickname": "jasun12",
+  "password": "Qlqjs134",
+  "passwordconfirm" : "Qlqjs134"
+}
+
+###
+POST http://localhost:8080/api/account/login
+Content-Type: application/json
+
+{
+  "userid": "asdasdf1",
+  "password": "Qlqjs134"
+}
+
+###
+POST http://localhost:8080/api/account/logout
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ0NzMyNCwiaWF0IjoxNjY2NDQ2NzI0fQ.ZDhDib7fiyzdbsgfqi9v6lFllH9gL0dbKNeqy-UenXU

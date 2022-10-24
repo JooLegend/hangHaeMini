@@ -10,5 +10,13 @@
         <module name="hangHaeMini.hangHaeMini.main" />
       </profile>
     </annotationProcessing>
+<<<<<<< HEAD
+=======
+    <bytecodeTargetLevel target="11">
+      <module name="com.sparta.hangHaeMini" target="11" />
+      <module name="com.sparta.hangHaeMini.main" target="11" />
+      <module name="com.sparta.hangHaeMini.test" target="11" />
+    </bytecodeTargetLevel>
+>>>>>>> c33300dfa52cbb05f9e7eaeb75c85bd7dfa9d379
   </component>
 </project>

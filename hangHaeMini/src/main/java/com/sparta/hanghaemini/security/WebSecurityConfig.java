@@ -1,5 +1,6 @@
 package com.sparta.hanghaemini.security;
 
+import com.sparta.hanghaemini.jwt.filter.JwtAuthFilter;
 import com.sparta.hanghaemini.jwt.util.JwtUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
@@ -38,8 +39,8 @@ public class WebSecurityConfig {
 
         http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 
-        http.authorizeRequests().antMatchers("/api/account/**").permitAll()
-                .antMatchers(HttpMethod.GET,"/api/post/**").permitAll()
+        http.authorizeRequests().antMatchers("/account/**").permitAll()
+                .antMatchers(HttpMethod.GET,"/show/**").permitAll()
                 .anyRequest().authenticated()
                 .and().addFilterBefore(new JwtAuthFilter(jwtUtil), UsernamePasswordAuthenticationFilter.class);
 
