@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="globalexcepition">
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/service/PostService.java" afterDir="false" />
+=======
+    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="맨처음">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> comment
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +72,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -95,10 +116,14 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+<<<<<<< HEAD
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
     &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;64a99998001ddf45a4794cc5c58aa0d4&quot;
+=======
+    &quot;spring.configuration.checksum&quot;: &quot;f3c4f150490590eb0462735daab8c271&quot;
+>>>>>>> comment
   }
 }</component>
   <component name="RecentsManager">
@@ -166,6 +191,7 @@
       <updated>1666315909851</updated>
       <workItem from="1666315912599" duration="1378000" />
       <workItem from="1666339630042" duration="7609000" />
+<<<<<<< HEAD
       <workItem from="1666352888706" duration="145000" />
       <workItem from="1666353064685" duration="332000" />
       <workItem from="1666367334870" duration="36000" />
@@ -181,6 +207,11 @@
       <workItem from="1666535197555" duration="26000" />
       <workItem from="1666538465705" duration="12008000" />
       <workItem from="1666578819072" duration="8853000" />
+=======
+      <workItem from="1666437861135" duration="25000" />
+      <workItem from="1666437896014" duration="164000" />
+      <workItem from="1666546320873" duration="601000" />
+>>>>>>> comment
     </task>
     <task id="LOCAL-00001" summary="맨처음">
       <created>1666316222227</created>

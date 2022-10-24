@@ -1,6 +1,8 @@
 package com.sparta.hanghaemini.common;
 
+
 import lombok.AllArgsConstructor;
+
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -14,11 +16,13 @@ public class CommonResponseDto <T>{
     private T data;
     private String error;
 
+
     public static <T> CommonResponseDto <T> success(T data){
         return new CommonResponseDto<>(true, data, null);
     }
 
-    public static <T> CommonResponseDto <T> fail(String msg){
+    public static <T> CommonResponseDto <T> fail(String msg) {
         return new CommonResponseDto<>(false, null, msg);
     }
+
 }
