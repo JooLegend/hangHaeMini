@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="globalexcepition">
       <change afterPath="$PROJECT_DIR$/.idea/modules/hangHaeMini.hangHaeMini.test~1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/Accountservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/Accountservice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="account" />
+        <entry key="$PROJECT_DIR$" value="comment" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -134,10 +132,10 @@
     <configuration name="generated-requests | ##########################################################################################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="##########################################################################################" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | post 수정하기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="post 수정하기" runType="단일 요청 실행">
+    <configuration name="generated-requests | post 삭제하기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="post 삭제하기" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | post 삭제하기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="post 삭제하기" runType="단일 요청 실행">
+    <configuration name="generated-requests | post 수정하기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="post 수정하기" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | 로그인" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="로그인" runType="단일 요청 실행">
@@ -171,7 +169,6 @@
       <list>
         <item itemvalue="HTTP 요청.Test | #3" />
         <item itemvalue="HTTP 요청.generated-requests | 로그인" />
-        <item itemvalue="HTTP 요청.generated-requests | post 삭제하기" />
         <item itemvalue="HTTP 요청.generated-requests | ##########################################################################################" />
         <item itemvalue="Gradle.hangHaeMini [build]" />
       </list>
@@ -509,7 +506,8 @@
     <MESSAGE value="cors 오늘 마지막 시도!!! 이거 안되면 나 못해" />
     <MESSAGE value="10차시도" />
     <MESSAGE value="globalexcepition" />
-    <option name="LAST_COMMIT_MESSAGE" value="globalexcepition" />
+    <MESSAGE value="제네릭 명확한 명시 버전" />
+    <option name="LAST_COMMIT_MESSAGE" value="제네릭 명확한 명시 버전" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
