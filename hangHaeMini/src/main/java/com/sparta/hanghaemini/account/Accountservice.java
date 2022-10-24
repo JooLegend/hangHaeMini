@@ -33,7 +33,7 @@ public class Accountservice {
         }
     }
 
-    public ResponseEntity<CommonResponseDto> checkid(Map<String, String> request) {
+    public ResponseEntity<CommonResponseDto<String>> checkid(Map<String, String> request) {
         checking(request.get(USERID), USERID);
         return ResponseEntity
                 .status(HttpStatus.OK)
@@ -41,7 +41,7 @@ public class Accountservice {
     }
 
     @Transactional(readOnly = true)
-    public ResponseEntity<?> checkname(Map<String, String> request) {
+    public ResponseEntity<CommonResponseDto<String>> checkname(Map<String, String> request) {
         checking(request.get(NICKNAME), NICKNAME);
         return ResponseEntity
                 .status(HttpStatus.OK)
@@ -49,7 +49,7 @@ public class Accountservice {
     }
 
     @Transactional
-    public ResponseEntity<?> signup(AccountReqDto accountReqDto){
+    public ResponseEntity<CommonResponseDto<String>> signup(AccountReqDto accountReqDto){
         checking(accountReqDto.getUserid(), USERID);
         checking(accountReqDto.getNickname(), NICKNAME);
         if(!accountReqDto.checkpassword()) throw new RuntimeException("확인 비밀번호가 다릅니다.");

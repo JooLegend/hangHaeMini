@@ -22,9 +22,7 @@ public class CommentService {
     private final PostRepository postRepository;
 
 
-    public ResponseEntity<CommonResponseDto<?>> postComment(CommentRequestDto commentRequestDto, Account account, Long id){
-
-
+    public ResponseEntity<CommonResponseDto<Comment>> postComment(CommentRequestDto commentRequestDto, Account account, Long id){
         Comment comment = Comment.builder()
                 .comment(commentRequestDto.getComment())
                 .post(postRepository.findPostByPostId(id))
@@ -33,22 +31,22 @@ public class CommentService {
         commentRepository.save(comment);
     return ResponseEntity
             .status(HttpStatus.OK)
-            .body(new CommonResponseDto<Comment>(true,comment, null));
+            .body(CommonResponseDto.success(comment));
 
     }
 
 
-    public ResponseEntity delete(Account account,Long postid, Long commentid){
+    public ResponseEntity<CommonResponseDto<String>> delete(Account account,Long postid, Long commentid){
         Comment comment = commentRepository.findByPost_PostIdAndCommentId(postid, commentid);
         if(account.getId().equals(comment.getAccount().getId()) || account.getId().equals(comment.getPost().getPostId()) ){
             commentRepository.deleteById(commentid);
             return  ResponseEntity
                     .status(HttpStatus.OK)
-                    .body(new CommonResponseDto(true,null, null));
+                    .body(CommonResponseDto.success(null));
         }else{
             return  ResponseEntity
                     .status(HttpStatus.BAD_REQUEST)
-                    .body(new CommonResponseDto(false,null, null));
+                    .body(CommonResponseDto.fail("댓글 삭제권한이 없습니다."));
         }
 
     }
