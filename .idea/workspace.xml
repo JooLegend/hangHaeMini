@@ -5,35 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="맨처음">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/Test.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/Accountcontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/Accountservice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/dto/LoginResDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/common/CommonResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/common/exceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/filter/JwtAuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/dto/PostRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/dto/PostResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/dto/PostsResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/dto/controller/PostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/entity/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/repository/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/service/PostService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/HangHaeMiniApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/HangHaeMiniApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/dto/AccountReqDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/dto/AccountReqDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/entity/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/entity/Refreshtoken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/repository/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/repository/RefreshtokenRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/common/CommonRequestDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/util/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/user/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/user/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +135,7 @@
       <workItem from="1666448364361" duration="883000" />
       <workItem from="1666501541600" duration="2933000" />
       <workItem from="1666504661936" duration="5815000" />
-      <workItem from="1666582946162" duration="6071000" />
+      <workItem from="1666582946162" duration="7530000" />
     </task>
     <task id="LOCAL-00001" summary="맨처음">
       <created>1666316222227</created>
