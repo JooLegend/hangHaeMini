@@ -9,12 +9,10 @@ public class AccountReqDto {
     private String userid;
     private String nickname;
     private String password;
-
-    public AccountReqDto(String userid, String nickname, String password){
-        this.userid = userid;
-        this.nickname = nickname;
-        this.password = password;
-    }
+    private String passwordconfirm;
 
     public void setEcodePwd(String password){ this.password = password;}
+    public boolean checkpassword(){
+        return this.password.equals(this.passwordconfirm);
+    }
 }

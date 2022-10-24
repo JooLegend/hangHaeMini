@@ -6,12 +6,12 @@ import com.sparta.hanghaemini.comment.dto.CommentRequestDto;
 import com.sparta.hanghaemini.comment.entity.Comment;
 import com.sparta.hanghaemini.comment.repository.CommentRepository;
 import com.sparta.hanghaemini.common.CommonResponseDto;
+import com.sparta.hanghaemini.post.repository.PostRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import javax.validation.constraints.Null;
 
 @Service
 @RequiredArgsConstructor
@@ -22,25 +22,25 @@ public class CommentService {
     private final PostRepository postRepository;
 
 
-    public ResponseEntity postComment(CommentRequestDto commentRequestDto, Account account, Long id){
+    public ResponseEntity<CommonResponseDto<?>> postComment(CommentRequestDto commentRequestDto, Account account, Long id){
 
 
         Comment comment = Comment.builder()
                 .comment(commentRequestDto.getComment())
-                .post(postRepository.findById(id))
+                .post(postRepository.findPostByPostId(id))
                 .account(account)
                 .build();
         commentRepository.save(comment);
     return ResponseEntity
             .status(HttpStatus.OK)
-            .body(new CommonResponseDto(true,comment, null));
+            .body(new CommonResponseDto<Comment>(true,comment, null));
 
     }
 
 
     public ResponseEntity delete(Account account,Long postid, Long commentid){
-        Comment comment = commentRepository.findByCommentIdAndPost_Id(commentid,postid);
-        if(account.getId().equals(comment.getAccount().getId()) || account.getId().equals(comment.getPost().getId()) ){
+        Comment comment = commentRepository.findByPost_PostIdAndCommentId(postid, commentid);
+        if(account.getId().equals(comment.getAccount().getId()) || account.getId().equals(comment.getPost().getPostId()) ){
             commentRepository.deleteById(commentid);
             return  ResponseEntity
                     .status(HttpStatus.OK)

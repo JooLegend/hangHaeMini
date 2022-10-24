@@ -3,10 +3,10 @@ package com.sparta.hanghaemini.comment.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.sparta.hanghaemini.account.entity.Account;
-import com.sparta.hanghaemini.comment.dto.CommentRequestDto;
+
 import com.sparta.hanghaemini.common.Timestamped;
+import com.sparta.hanghaemini.post.entity.Post;
 import lombok.*;
-import org.springframework.stereotype.Service;
 
 import javax.persistence.*;
 
