@@ -33,7 +33,7 @@ public class Accountservice {
         }
     }
 
-    public ResponseEntity<?> checkid(Map<String, String> request) {
+    public ResponseEntity<CommonResponseDto> checkid(Map<String, String> request) {
         checking(request.get(USERID), USERID);
         return ResponseEntity
                 .status(HttpStatus.OK)
@@ -61,7 +61,7 @@ public class Accountservice {
     }
 
     @Transactional
-    public ResponseEntity<?> login(LoginResDto loginResDto, HttpServletResponse response){
+    public ResponseEntity<CommonResponseDto<String>> login(LoginResDto loginResDto, HttpServletResponse response){
 
         Account account = accountRepository.findAccountByUserid(loginResDto.getUserid()).orElseThrow(
                 () -> new RuntimeException("아이디 조회불가")
@@ -73,6 +73,6 @@ public class Accountservice {
         response.setHeader(JwtUtil.Access_Token, jwtUtil.createToken(userid));
         return ResponseEntity
                 .status(HttpStatus.OK)
-                .body(CommonResponseDto.success(null));
+                .body(CommonResponseDto.success(account.getNickname()));
     }
 }
