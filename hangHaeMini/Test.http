@@ -1,5 +1,5 @@
 ###
-POST http://localhost:8080/api/account/checkname
+POST http://localhost:8080/account/checkname
 Content-Type: application/json
 
 {
@@ -7,7 +7,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:8080/api/account/checkid
+POST http://localhost:8080/account/checkid
 Content-Type: application/json
 
 {
@@ -15,7 +15,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:8080/api/account/signup
+POST http://localhost:8080/account/signup
 Content-Type: application/json
 
 {
@@ -26,7 +26,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:8080/api/account/login
+POST http://localhost:8080/account/login
 Content-Type: application/json
 
 {
@@ -36,4 +36,4 @@ Content-Type: application/json
 
 ###
 POST http://localhost:8080/api/account/logout
-Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ0NzMyNCwiaWF0IjoxNjY2NDQ2NzI0fQ.ZDhDib7fiyzdbsgfqi9v6lFllH9gL0dbKNeqy-UenXU
+Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjU5MTk1MSwiaWF0IjoxNjY2NTkxODMxfQ.UEGhGjAwsHAX5TQiyDRTYJ3kEbXDHz1lIse4uW3od4Q

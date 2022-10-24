@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="logout만 하면됨">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/Accountservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/Accountservice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/filter/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/filter/JwtAuthFilter.java" afterDir="false" />
+    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="맨처음">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +30,17 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="hangHaeMini" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hangHaeMini" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hangHaeMini" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -43,18 +52,34 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Request" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="account_ver2" />
+        <entry key="$PROJECT_DIR$" value="account" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -70,12 +95,6 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -84,25 +103,31 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;64a99998001ddf45a4794cc5c58aa0d4&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;f3c4f150490590eb0462735daab8c271&quot;
   }
 }</component>
-  <component name="RunManager" selected="Spring Boot.HangHaeMiniApplication">
-    <configuration name="generated-requests | 로그인" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="로그인" runType="단일 요청 실행">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rbqja\hanhea99\hangHaeMini\hangHaeMini" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HangHaeMiniApplication (2)">
+    <configuration name="generated-requests | 코멘트 달기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="10" requestIdentifier="코멘트 달기" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="단일 요청 실행">
+    <configuration name="generated-requests | 코멘트 삭제" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="11" requestIdentifier="코멘트 삭제" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="단일 요청 실행">
+    <configuration name="generated-requests | post 삭제하기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="post 삭제하기" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="단일 요청 실행">
+    <configuration name="generated-requests | post 삭제하기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="post 삭제하기" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | 회원가입" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="회원가입" runType="단일 요청 실행">
+    <configuration name="generated-requests | post 상세페이지" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="8" requestIdentifier="post 상세페이지" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | 메인페이지의 포스트 정보 불러오기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="9" requestIdentifier="메인페이지의 포스트 정보 불러오기" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="HangHaeMiniApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -112,8 +137,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HangHaeMiniApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="HangHaeMiniApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hangHaeMini.hangHaeMini.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.hanghaemini.HangHaeMiniApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HangHaeMiniApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="hangHaeMini.hangHaeMini" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.hanghaemini.HangHaeMiniApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,6 +159,8 @@
         <item itemvalue="HTTP 요청.generated-requests | #5" />
         <item itemvalue="HTTP 요청.generated-requests | #4" />
         <item itemvalue="HTTP 요청.generated-requests | #3" />
+        <item itemvalue="HTTP 요청.generated-requests | #2" />
+        <item itemvalue="HTTP 요청.generated-requests | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +182,17 @@
       <workItem from="1666423184726" duration="73000" />
       <workItem from="1666425199374" duration="2557000" />
       <workItem from="1666427787186" duration="13759000" />
-      <workItem from="1666493771454" duration="860000" />
+      <workItem from="1666353491977" duration="4604000" />
+      <workItem from="1666407940178" duration="8405000" />
+      <workItem from="1666521698524" duration="1110000" />
+      <workItem from="1666524842213" duration="4113000" />
+      <workItem from="1666535197555" duration="26000" />
+      <workItem from="1666538465705" duration="12008000" />
+      <workItem from="1666578819072" duration="8853000" />
+      <workItem from="1666437861135" duration="25000" />
+      <workItem from="1666437896014" duration="164000" />
+      <workItem from="1666546320873" duration="601000" />
+      <workItem from="1666578819072" duration="10323000" />
     </task>
     <task id="LOCAL-00001" summary="맨처음">
       <created>1666316222227</created>
@@ -182,14 +229,238 @@
       <option name="project" value="LOCAL" />
       <updated>1666457358970</updated>
     </task>
-    <task id="LOCAL-00006" summary="Account 원래 버전 이상한 토큰에 대한 대응기능 수정">
-      <created>1666470279594</created>
+    <task id="LOCAL-00006" summary="HEADER 일정하지 않은 버전">
+      <created>1666459062003</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1666470279594</updated>
+      <updated>1666459062003</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HEADER 일정한 버전">
+      <created>1666459636393</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666459636393</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Post 병합">
+      <created>1666461756556</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666461756556</updated>
+    </task>
+    <task id="LOCAL-00009" summary="체크아웃전 저장(의미없는)">
+      <created>1666495979930</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666495979930</updated>
+    </task>
+    <task id="LOCAL-00010" summary="context-path 기능 삭제">
+      <created>1666511312100</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666511312100</updated>
+    </task>
+    <task id="LOCAL-00011" summary="cors 설정 테스트">
+      <created>1666514300755</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666514300755</updated>
+    </task>
+    <task id="LOCAL-00012" summary="cors 설정 테스트">
+      <created>1666514425103</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666514425103</updated>
+    </task>
+    <task id="LOCAL-00013" summary="cors 설정 테스트">
+      <created>1666514476014</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666514476014</updated>
+    </task>
+    <task id="LOCAL-00014" summary="cors 설정 테스트">
+      <created>1666514540711</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666514540711</updated>
+    </task>
+    <task id="LOCAL-00015" summary="cors 설정 테스트">
+      <created>1666514666304</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666514666304</updated>
+    </task>
+    <task id="LOCAL-00016" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
+      <created>1666516887184</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666516887184</updated>
+    </task>
+    <task id="LOCAL-00017" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
+      <created>1666516937759</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666516937759</updated>
+    </task>
+    <task id="LOCAL-00018" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
+      <created>1666522737939</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666522737939</updated>
+    </task>
+    <task id="LOCAL-00019" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
+      <created>1666525926973</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1666525926973</updated>
+    </task>
+    <task id="LOCAL-00020" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
+      <created>1666525977402</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1666525977402</updated>
+    </task>
+    <task id="LOCAL-00021" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
+      <created>1666526093084</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1666526093084</updated>
+    </task>
+    <task id="LOCAL-00022" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
+      <created>1666526646176</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1666526646176</updated>
+    </task>
+    <task id="LOCAL-00023" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
+      <created>1666526685143</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1666526685143</updated>
+    </task>
+    <task id="LOCAL-00024" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
+      <created>1666527383747</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1666527383747</updated>
+    </task>
+    <task id="LOCAL-00025" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
+      <created>1666527533706</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1666527533706</updated>
+    </task>
+    <task id="LOCAL-00026" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
+      <created>1666527910977</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1666527910977</updated>
+    </task>
+    <task id="LOCAL-00027" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
+      <created>1666528004072</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1666528004072</updated>
+    </task>
+    <task id="LOCAL-00028" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
+      <created>1666542807404</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1666542807404</updated>
+    </task>
+    <task id="LOCAL-00029" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
+      <created>1666542862866</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1666542862866</updated>
+    </task>
+    <task id="LOCAL-00030" summary="10차시도">
+      <created>1666547787702</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1666547787702</updated>
+    </task>
+    <task id="LOCAL-00031" summary="10차시도">
+      <created>1666547889845</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1666547889845</updated>
+    </task>
+    <task id="LOCAL-00032" summary="10차시도">
+      <created>1666583306364</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1666583306364</updated>
+    </task>
+    <task id="LOCAL-00033" summary="10차시도">
+      <created>1666583386018</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1666583386018</updated>
+    </task>
+    <task id="LOCAL-00034" summary="10차시도">
+      <created>1666591258248</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1666591258248</updated>
+    </task>
+    <task id="LOCAL-00035" summary="globalexcepition">
+      <created>1666592598121</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1666592598121</updated>
+    </task>
+    <task id="LOCAL-00036" summary="globalexcepition">
+      <created>1666593545353</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1666593545353</updated>
+    </task>
+    <task id="LOCAL-00037" summary="globalexcepition">
+      <created>1666594116532</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1666594116532</updated>
+    </task>
+    <task id="LOCAL-00038" summary="globalexcepition">
+      <created>1666594246928</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1666594246928</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +469,11 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="5d60bb79-692e-4e31-9718-d912a82f3cfe">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -214,10 +490,28 @@
     <MESSAGE value="CommonResponseDto 이름 수정" />
     <MESSAGE value="줄기 테스트" />
     <MESSAGE value="logout만 하면됨" />
-    <MESSAGE value="Account 원래 버전 이상한 토큰에 대한 대응기능 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="Account 원래 버전 이상한 토큰에 대한 대응기능 수정" />
+    <MESSAGE value="HEADER 일정하지 않은 버전" />
+    <MESSAGE value="HEADER 일정한 버전" />
+    <MESSAGE value="HEADER 일정한 계정부분 완료" />
+    <MESSAGE value="Post 병합" />
+    <MESSAGE value="체크아웃전 저장(의미없는)" />
+    <MESSAGE value="context-path 기능 삭제" />
+    <MESSAGE value="cors 설정 테스트" />
+    <MESSAGE value="cors 오늘 마지막 시도!!! 이거 안되면 나 못해" />
+    <MESSAGE value="10차시도" />
+    <MESSAGE value="globalexcepition" />
+    <option name="LAST_COMMIT_MESSAGE" value="globalexcepition" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/Accountservice.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="org.springframework.aop.framework.JdkDynamicAopProxy" memberName="proxiedInterfaces" />

@@ -26,6 +26,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
             throws ServletException, IOException {
         String servletPath = request.getServletPath();
         String accessToken = jwtUtil.getHeaderToken(request);
+        System.out.println("======================================필터를 지나가는중======================================");
 
         if(accessToken != null && !servletPath.equals("/account/logout")){
             int state = jwtUtil.actokenValidation(accessToken);
@@ -34,17 +35,19 @@ public class JwtAuthFilter extends OncePerRequestFilter {
                 return;
             }
             String userid = jwtUtil.getClamsFromToken(accessToken).getSubject();
-            if (state == 2) { //엑세스 토큰이 만료시에
-                String refreshtoken = jwtUtil.getrftoken(userid).getRefreshToken();
-                if(jwtUtil.actokenValidation(refreshtoken) == 1) { //rf토큰이 유효하다면
+            if(state == 1){ //엑세스 토큰이 정상일 경우 정상 진행
+                setAuthentication(userid);
+            } else if (state == 2) { //엑세스 토큰이 만료시에
+                Refreshtoken refreshtoken = jwtUtil.getrftoken(userid);
+                if(jwtUtil.actokenValidation(refreshtoken.getRefreshToken()) == 1) {
                     jwtUtil.changerftoken(userid); //기존 rf토큰이 있으면 교체
                     response.setHeader(JwtUtil.Access_Token, jwtUtil.createToken(userid, JwtUtil.Access_Token));
-                } else{ //rf토큰 만료시
-                    jwtExceptionHandler(response, "login please", HttpStatus.BAD_REQUEST);
-                    return;
+                    setAuthentication(userid);
                 }
+            } else {
+                jwtExceptionHandler(response, "login please", HttpStatus.BAD_REQUEST);
+                return;
             }
-            setAuthentication(userid);
         }
         filterChain.doFilter(request, response);
     }
