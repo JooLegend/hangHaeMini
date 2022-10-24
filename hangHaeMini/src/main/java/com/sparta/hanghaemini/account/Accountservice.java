@@ -73,6 +73,6 @@ public class Accountservice {
         response.setHeader(JwtUtil.Access_Token, jwtUtil.createToken(userid));
         return ResponseEntity
                 .status(HttpStatus.OK)
-                .body(CommonResponseDto.success(null));
+                .body(CommonResponseDto.success(account.getNickname()));
     }
 }
