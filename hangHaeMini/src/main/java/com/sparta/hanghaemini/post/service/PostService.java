@@ -39,16 +39,18 @@ public class PostService {
         return ResponseEntity
                 .status(HttpStatus.OK)
                 .body(CommonResponseDto.success(postResponseDto));
+
     }
 
     @Transactional
     public ResponseEntity<?> delete(Long id,Account account) {
         Post post = postRepository.findPostByPostIdAndAccount(id, account);
-        if (post == null) throw new RuntimeException("해당 post 수정 권한 없음");
+        if (post == null) throw new RuntimeException("해당 post 삭제 권한 없음");
         postRepository.deleteById(post.getPostId());
         return ResponseEntity
                 .status(HttpStatus.OK)
                 .body(CommonResponseDto.success(null));
+
     }
 
     @Transactional(readOnly = true)
