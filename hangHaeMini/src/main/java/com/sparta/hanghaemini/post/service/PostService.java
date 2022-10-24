@@ -32,35 +32,23 @@ public class PostService {
 
     @Transactional
     public ResponseEntity<?> modifyPost(Long id, String content, Account account)  {
-        try {
-            Post post = postRepository.findPostByPostIdAndAccount(id, account);
-            if (post == null) throw new RuntimeException("해당 post 수정 권한 없음");
-            post.setContent(content);
-            PostResponseDto postResponseDto = new PostResponseDto(postRepository.save(post));
-            return ResponseEntity
-                    .status(HttpStatus.OK)
-                    .body(CommonResponseDto.success(postResponseDto));
-        } catch (RuntimeException ex){
-            return ResponseEntity
-                    .status(HttpStatus.BAD_REQUEST)
-                    .body(CommonResponseDto.fail(ex.getMessage()));
-        }
+        Post post = postRepository.findPostByPostIdAndAccount(id, account);
+        if (post == null) throw new RuntimeException("해당 post 수정 권한 없음");
+        post.setContent(content);
+        PostResponseDto postResponseDto = new PostResponseDto(postRepository.save(post));
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body(CommonResponseDto.success(postResponseDto));
     }
 
     @Transactional
     public ResponseEntity<?> delete(Long id,Account account) {
-        try {
-            Post post = postRepository.findPostByPostIdAndAccount(id, account);
-            if (post == null) throw new RuntimeException("해당 post 수정 권한 없음");
-            postRepository.deleteById(post.getPostId());
-            return ResponseEntity
-                    .status(HttpStatus.OK)
-                    .body(CommonResponseDto.success(null));
-        } catch (RuntimeException ex) {
-            return ResponseEntity
-                    .status(HttpStatus.BAD_REQUEST)
-                    .body(CommonResponseDto.fail(ex.getMessage()));
-        }
+        Post post = postRepository.findPostByPostIdAndAccount(id, account);
+        if (post == null) throw new RuntimeException("해당 post 수정 권한 없음");
+        postRepository.deleteById(post.getPostId());
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body(CommonResponseDto.success(null));
     }
 
     @Transactional(readOnly = true)
