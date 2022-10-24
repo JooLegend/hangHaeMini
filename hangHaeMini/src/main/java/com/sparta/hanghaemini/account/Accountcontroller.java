@@ -17,21 +17,25 @@ public class Accountcontroller {
 
     @PostMapping("/checkid")
     public ResponseEntity<?> checkid(@RequestBody Map<String, String> request){
+        System.out.println("======================================컨트롤러 지나가는중======================================");
         return accountservice.checkid(request);
     }
 
     @PostMapping("/checkname")
     public ResponseEntity<?> checkname(@RequestBody Map<String, String> request){
+        System.out.println("======================================컨트롤러 지나가는중======================================");
         return accountservice.checkname(request);
     }
 
     @PostMapping("/signup")
     public ResponseEntity<?> signup(@RequestBody AccountReqDto request){
+        System.out.println("======================================컨트롤러 지나가는중======================================");
         return accountservice.signup(request);
     }
 
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody LoginResDto request, HttpServletResponse response){
+        System.out.println("======================================컨트롤러 지나가는중======================================");
         return accountservice.login(request, response);
     }
 }
