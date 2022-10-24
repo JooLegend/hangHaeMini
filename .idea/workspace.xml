@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="10차시도">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/hangHaeMini-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/Accountcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/Accountcontroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/filter/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/filter/JwtAuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/controller/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/Test.http" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/Test.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,40 +107,22 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.HangHaeMiniApplication (2)">
-    <configuration name="hangHaeMini [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/hangHaeMini" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
+    <configuration name="Test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/hangHaeMini/Test.http" requestIdentifier="#1" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="Test | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/hangHaeMini/Test.http" index="3" requestIdentifier="#3" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
-    <configuration name="Test | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/hangHaeMini/Test.http" index="4" requestIdentifier="#4" runType="단일 요청 실행">
+    <configuration name="generated-requests | 로그인" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="로그인" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | ##########################################################################################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="##########################################################################################" runType="단일 요청 실행">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | post 상세페이지" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="8" requestIdentifier="post 상세페이지" runType="단일 요청 실행">
+    <configuration name="generated-requests | nickname 중복확인" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="nickname 중복확인" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | post 상세페이지" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="8" requestIdentifier="post 상세페이지" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | 회원가입" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="회원가입" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="HangHaeMiniApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -173,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP 요청.generated-requests | nickname 중복확인" />
+        <item itemvalue="HTTP 요청.Test | #1" />
         <item itemvalue="HTTP 요청.Test | #3" />
-        <item itemvalue="Gradle.hangHaeMini [build]" />
-        <item itemvalue="HTTP 요청.Test | #4" />
-        <item itemvalue="HTTP 요청.generated-requests | post 상세페이지" />
-        <item itemvalue="HTTP 요청.generated-requests | ##########################################################################################" />
+        <item itemvalue="HTTP 요청.generated-requests | 로그인" />
+        <item itemvalue="HTTP 요청.generated-requests | 회원가입" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +183,7 @@
       <workItem from="1666524842213" duration="4113000" />
       <workItem from="1666535197555" duration="26000" />
       <workItem from="1666538465705" duration="12008000" />
-      <workItem from="1666578819072" duration="1856000" />
+      <workItem from="1666578819072" duration="6477000" />
     </task>
     <task id="LOCAL-00001" summary="맨처음">
       <created>1666316222227</created>
@@ -424,7 +402,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666547889845</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="10차시도">
+      <created>1666583306364</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1666583306364</updated>
+    </task>
+    <task id="LOCAL-00033" summary="10차시도">
+      <created>1666583386018</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1666583386018</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

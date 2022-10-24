@@ -15,7 +15,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:8080/account/signup
+POST http://52.206.73.25:8080/account/signup
 Content-Type: application/json
 
 {
