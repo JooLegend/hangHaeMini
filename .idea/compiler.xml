@@ -7,22 +7,9 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/13a394eed5c4f9efb2a6d956e2086f1d81e857d9/lombok-1.18.24.jar" />
         </processorPath>
-        <module name="hangHaeMini.hangHaeMini.main" />
+        <module name="hangHaeMini.main" />
       </profile>
     </annotationProcessing>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/comment
-    <bytecodeTargetLevel target="11">
-      <module name="com.sparta.hangHaeMini" target="11" />
-      <module name="com.sparta.hangHaeMini.main" target="11" />
-      <module name="com.sparta.hangHaeMini.test" target="11" />
-    </bytecodeTargetLevel>
-<<<<<<< HEAD
->>>>>>> c33300dfa52cbb05f9e7eaeb75c85bd7dfa9d379
-=======
->>>>>>> origin/comment
+    <bytecodeTargetLevel target="11" />
   </component>
 </project>
