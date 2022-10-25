@@ -12,7 +12,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
 import javax.servlet.http.HttpServletResponse;
 import java.util.Map;
 
@@ -34,70 +33,46 @@ public class Accountservice {
         }
     }
 
-    public ResponseEntity<?> checkid(Map<String, String> request) {
-        try {
-            checking(request.get(USERID), USERID);
-            return ResponseEntity
-                    .status(HttpStatus.OK)
-                    .body(CommonResponseDto.success(null));
-        } catch (RuntimeException ex) {
-            return ResponseEntity
-                    .status(HttpStatus.BAD_REQUEST)
-                    .body(CommonResponseDto.fail(ex.getMessage()));
-        }
+    public ResponseEntity<CommonResponseDto<String>> checkid(Map<String, String> request) {
+        checking(request.get(USERID), USERID);
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body(CommonResponseDto.success(null));
     }
 
     @Transactional(readOnly = true)
-    public ResponseEntity<?> checkname(Map<String, String> request) {
-        try {
-            checking(request.get(NICKNAME), NICKNAME);
-            return ResponseEntity
-                    .status(HttpStatus.OK)
-                    .body(CommonResponseDto.success(null));
-        } catch (RuntimeException ex) {
-            return ResponseEntity
-                    .status(HttpStatus.BAD_REQUEST)
-                    .body(CommonResponseDto.fail(ex.getMessage()));
-        }
+    public ResponseEntity<CommonResponseDto<String>> checkname(Map<String, String> request) {
+        checking(request.get(NICKNAME), NICKNAME);
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body(CommonResponseDto.success(null));
     }
 
     @Transactional
-    public ResponseEntity<?> signup(AccountReqDto accountReqDto){
-        try{
-            //중복검사 한번더함
-            checking(accountReqDto.getUserid(), USERID);
-            checking(accountReqDto.getNickname(), NICKNAME);
-            if(!accountReqDto.checkpassword()) throw new RuntimeException("확인 비밀번호가 다릅니다.");
-            accountReqDto.setEcodePwd(passwordEncoder.encode(accountReqDto.getPassword()));
-            accountRepository.save(new Account(accountReqDto));
-            return ResponseEntity
-                    .status(HttpStatus.OK)
-                    .body(CommonResponseDto.success(null));
-        } catch (RuntimeException ex){
-            return ResponseEntity
-                    .status(HttpStatus.BAD_REQUEST)
-                    .body(CommonResponseDto.fail(ex.getMessage()));
-        }
+    public ResponseEntity<CommonResponseDto<String>> signup(AccountReqDto accountReqDto){
+        checking(accountReqDto.getUserid(), USERID);
+        checking(accountReqDto.getNickname(), NICKNAME);
+        if(!accountReqDto.checkpassword()) throw new RuntimeException("확인 비밀번호가 다릅니다.");
+        accountReqDto.setEcodePwd(passwordEncoder.encode(accountReqDto.getPassword()));
+        accountRepository.save(new Account(accountReqDto));
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body(CommonResponseDto.success(null));
     }
 
     @Transactional
-    public ResponseEntity<?> login(LoginResDto loginResDto, HttpServletResponse response){
-        try {
-            Account account = accountRepository.findAccountByUserid(loginResDto.getUserid()).orElseThrow(
-                    () -> new RuntimeException("아이디 조회불가")
-            );
-            if(!passwordEncoder.matches(loginResDto.getPassword(), account.getPassword()))
-                throw new RuntimeException("비밀번호 일치하지 않음");
+    public ResponseEntity<CommonResponseDto<String>> login(LoginResDto loginResDto, HttpServletResponse response){
 
-            String userid = account.getUserid();
-            response.setHeader(JwtUtil.Access_Token, jwtUtil.createToken(userid));
-            return ResponseEntity
-                    .status(HttpStatus.OK)
-                    .body(CommonResponseDto.success(null));
-        } catch (RuntimeException ex){
-            return ResponseEntity
-                    .status(HttpStatus.BAD_REQUEST)
-                    .body(CommonResponseDto.fail(ex.getMessage()));
-        }
+        Account account = accountRepository.findAccountByUserid(loginResDto.getUserid()).orElseThrow(
+                () -> new RuntimeException("아이디 조회불가")
+        );
+        if(!passwordEncoder.matches(loginResDto.getPassword(), account.getPassword()))
+            throw new RuntimeException("비밀번호 일치하지 않음");
+
+        String userid = account.getUserid();
+        response.setHeader(JwtUtil.Access_Token, jwtUtil.createToken(userid));
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body(CommonResponseDto.success(account.getNickname()));
     }
 }

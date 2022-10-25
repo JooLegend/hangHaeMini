@@ -1,6 +1,7 @@
 package com.sparta.hanghaemini.post.entity;
 
 import com.sparta.hanghaemini.account.entity.Account;
+import com.sparta.hanghaemini.comment.entity.Comment;
 import com.sparta.hanghaemini.common.Timestamped;
 import com.sparta.hanghaemini.post.dto.PostRequestDto;
 import lombok.Getter;
@@ -8,6 +9,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Setter
 @Getter

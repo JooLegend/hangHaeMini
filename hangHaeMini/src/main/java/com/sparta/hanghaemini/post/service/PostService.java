@@ -21,7 +21,7 @@ import java.util.List;
 public class PostService {
     private final PostRepository postRepository;
 
-    public ResponseEntity<?> createPost(PostRequestDto postRequestDto, Account account) {
+    public ResponseEntity<CommonResponseDto<PostResponseDto>> createPost(PostRequestDto postRequestDto, Account account) {
         //userdetail정보를 받아와서, 실제 포스트에 저장된 유저아이디 값이랑 비교 하는게 들어잇어요
         Post post = new Post(postRequestDto,account);//넵 보여주세요
         PostResponseDto postResponseDto = new PostResponseDto(postRepository.save(post));
@@ -31,6 +31,7 @@ public class PostService {
     }
 
     @Transactional
+<<<<<<< HEAD
     public ResponseEntity<?> modifyPost(Long id, String content, Account account)  {
             Post post = postRepository.findPostByPostIdAndAccount(id, account);
             if (post == null) throw new RuntimeException("해당 post 수정 권한 없음");
@@ -39,10 +40,21 @@ public class PostService {
             return ResponseEntity
                     .status(HttpStatus.OK)
                     .body(CommonResponseDto.success(postResponseDto));
+=======
+    public ResponseEntity<CommonResponseDto<PostResponseDto>> modifyPost(Long id, String content, Account account)  {
+        Post post = postRepository.findPostByPostIdAndAccount(id, account);
+        if (post == null) throw new RuntimeException("해당 post 수정 권한 없음");
+        post.setContent(content);
+        PostResponseDto postResponseDto = new PostResponseDto(postRepository.save(post));
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body(CommonResponseDto.success(postResponseDto));
+>>>>>>> origin/comment
 
     }
 
     @Transactional
+<<<<<<< HEAD
     public ResponseEntity<?> delete(Long id,Account account) {
             Post post = postRepository.findPostByPostIdAndAccount(id, account);
             if (post == null) throw new RuntimeException("해당 post 수정 권한 없음");
@@ -51,19 +63,28 @@ public class PostService {
                     .status(HttpStatus.OK)
                     .body(CommonResponseDto.success(null));
 
+=======
+    public ResponseEntity<CommonResponseDto<String>> delete(Long id,Account account) {
+        Post post = postRepository.findPostByPostIdAndAccount(id, account);
+        if (post == null) throw new RuntimeException("해당 post 삭제 권한 없음");
+        postRepository.deleteById(post.getPostId());
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body(CommonResponseDto.success(null));
+>>>>>>> origin/comment
     }
 
     @Transactional(readOnly = true)
-    public ResponseEntity<?> getPost(Long id){
+    public ResponseEntity<CommonResponseDto<PostResponseDto>> getPost(Long id){
         Post post = postRepository.findPostByPostId(id);
         PostResponseDto postResponseDto = new PostResponseDto(post);
         return ResponseEntity
                 .status(HttpStatus.OK)
-                .body(postResponseDto);
+                .body(CommonResponseDto.success(postResponseDto));
     }
 
     @Transactional(readOnly = true)
-    public ResponseEntity<?> getPosts(){
+    public ResponseEntity<CommonResponseDto<List<PostsResponseDto>>> getPosts(){
         List<Post> posts = postRepository.findAll();
         List<PostsResponseDto> postsResponseDtoList = new LinkedList<>();
         for(Post post:posts){
