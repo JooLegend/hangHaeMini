@@ -52,7 +52,7 @@ public class WebSecurityConfig {
                 .and()
                 .authorizeRequests()
                 .antMatchers("/account/**").permitAll() // 로그인,회원가입은 토큰없이도 가능
-                .antMatchers(HttpMethod.GET,"/show/**").permitAll()
+                .antMatchers(HttpMethod.GET,"/movies/show/**").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .apply(new JwtSecurityConfig(jwtUtil));

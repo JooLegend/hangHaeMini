@@ -20,31 +20,31 @@ import java.util.Map;
 public class PostController {
     private final PostService postService;
 
-    @PostMapping("/post")
+    @PostMapping("/movies")
     public ResponseEntity<CommonResponseDto<PostResponseDto>> createPost(@RequestBody PostRequestDto postRequestDto, @AuthenticationPrincipal UserDetailsImpl userDetails) {
         System.out.println("======================================컨트롤러 지나가는중======================================");
         return postService.createPost(postRequestDto, userDetails.getAccount());
     }
 
-    @PatchMapping("/post/{postid}")
+    @PatchMapping("/movies/{postid}")
     public ResponseEntity<CommonResponseDto<PostResponseDto>> modifyPost(@PathVariable Long postid, @RequestBody Map<String, String> request, @AuthenticationPrincipal UserDetailsImpl userDetails) {
         System.out.println("======================================컨트롤러 지나가는중======================================");
         return postService.modifyPost(postid, request.get("content"), userDetails.getAccount());
     }
 
-    @DeleteMapping("/post/{postid}")
+    @DeleteMapping("/movies/{postid}")
     public ResponseEntity<CommonResponseDto<String>> delete(@PathVariable Long postid,@AuthenticationPrincipal UserDetailsImpl userDetails) {
         System.out.println("======================================컨트롤러 지나가는중======================================");
         return postService.delete(postid,userDetails.getAccount());
     }
 
-    @GetMapping("/show/post/{postid}")
+    @GetMapping("/movies/show/{postid}")
     public ResponseEntity<CommonResponseDto<PostResponseDto>> getPost(@PathVariable Long postid){
         System.out.println("======================================컨트롤러 지나가는중======================================");
         return postService.getPost(postid);
     }
 
-    @GetMapping("/show/post")
+    @GetMapping("/movies/show/")
     public ResponseEntity<CommonResponseDto<List<PostsResponseDto>>> getPosts() {
         System.out.println("======================================컨트롤러 지나가는중======================================");
         return postService.getPosts();

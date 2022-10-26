@@ -42,7 +42,6 @@ public class Accountservice {
                 .body(CommonResponseDto.success(null));
     }
 
-    @Transactional(readOnly = true)
     public ResponseEntity<CommonResponseDto<String>> checkname(Map<String, String> request) {
         checking(request.get(NICKNAME), NICKNAME);
         return ResponseEntity
@@ -79,7 +78,7 @@ public class Accountservice {
         }
         return ResponseEntity
                 .status(HttpStatus.OK)
-                .body(CommonResponseDto.success(null));
+                .body(CommonResponseDto.success(userid));
     }
 
     @Transactional
