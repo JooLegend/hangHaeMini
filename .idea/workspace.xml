@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="gitignore 테스트">
+    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="mysql 테스트">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -227,7 +227,7 @@
       <workItem from="1666578819072" duration="10323000" />
       <workItem from="1666667197837" duration="1661000" />
       <workItem from="1666746721690" duration="108000" />
-      <workItem from="1666746848880" duration="1749000" />
+      <workItem from="1666746848880" duration="2553000" />
     </task>
     <task id="LOCAL-00001" summary="맨처음">
       <created>1666316222227</created>
@@ -544,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666747366437</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="mysql 테스트">
+      <created>1666751059401</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1666751059401</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +594,8 @@
     <MESSAGE value="제네릭 명확한 명시 버전" />
     <MESSAGE value="리플레시 토큰 있는걸로 코드 수정" />
     <MESSAGE value="gitignore 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore 테스트" />
+    <MESSAGE value="mysql 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="mysql 테스트" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
