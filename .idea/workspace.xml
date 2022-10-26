@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="comment get 만듬">
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/hangHaeMini-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/filter/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/filter/JwtAuthFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,13 +143,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="generated-requests | 메인페이지의 포스트 정보 불러오기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="10" requestIdentifier="메인페이지의 포스트 정보 불러오기" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
     <configuration name="generated-requests | 코멘트 삭제" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="11" requestIdentifier="코멘트 삭제" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | #13" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="13" requestIdentifier="#13" runType="단일 요청 실행">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | ##########################################################################################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="##########################################################################################" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | movies 수정하기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="movies 수정하기" runType="단일 요청 실행">
@@ -187,10 +188,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.hangHaeMini [build]" />
+        <item itemvalue="HTTP 요청.generated-requests | movies 수정하기" />
+        <item itemvalue="HTTP 요청.generated-requests | 메인페이지의 포스트 정보 불러오기" />
         <item itemvalue="HTTP 요청.generated-requests | #13" />
         <item itemvalue="HTTP 요청.generated-requests | 코멘트 달기" />
-        <item itemvalue="HTTP 요청.generated-requests | movies 수정하기" />
-        <item itemvalue="HTTP 요청.generated-requests | ##########################################################################################" />
       </list>
     </recent_temporary>
   </component>
@@ -226,14 +227,7 @@
       <workItem from="1666667197837" duration="1661000" />
       <workItem from="1666746721690" duration="108000" />
       <workItem from="1666746848880" duration="4919000" />
-      <workItem from="1666761048632" duration="15258000" />
-    </task>
-    <task id="LOCAL-00020" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
-      <created>1666525977402</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1666525977402</updated>
+      <workItem from="1666761048632" duration="20894000" />
     </task>
     <task id="LOCAL-00021" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
       <created>1666526093084</created>
@@ -571,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666791823307</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="comment get 만듬">
+      <created>1666792456905</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1666792456905</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

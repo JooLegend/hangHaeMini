@@ -30,6 +30,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
         String accessToken = jwtUtil.getHeaderToken(request);
         System.out.println("토큰 값은: " + accessToken);
         System.out.println("토큰이 다르게: " + request.getHeader("access_token"));
+        System.out.println(servletPath);
 
         if(accessToken != null && !servletPath.equals("/account/logout")){
             int state = jwtUtil.actokenValidation(accessToken);
