@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="Entity 자료형 변경&#10;varchar(255) -&gt; longtext">
+    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="토큰 유효기간 늘림">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/hangHaeMini-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/comment/Service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/comment/Service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/comment/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/comment/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/comment/dto/CommentResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/comment/dto/CommentResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/comment/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/comment/repository/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/dto/PostResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/dto/PostResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,22 +150,22 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | 코멘트 달기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="11" requestIdentifier="코멘트 달기" runType="단일 요청 실행">
-      <method v="2" />
-    </configuration>
     <configuration name="generated-requests | 코멘트 삭제" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="11" requestIdentifier="코멘트 삭제" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | 로그인" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="로그인" runType="단일 요청 실행">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #14" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="14" requestIdentifier="#14" runType="단일 요청 실행">
+    <configuration name="generated-requests | #13" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="13" requestIdentifier="#13" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | ##########################################################################################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="##########################################################################################" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
+    <configuration name="generated-requests | movies 수정하기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="movies 수정하기" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
     <configuration name="generated-requests | post 삭제하기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="post 삭제하기" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | 코멘트 달기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="11" requestIdentifier="코멘트 달기" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="HangHaeMiniApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -188,10 +195,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.hangHaeMini [build]" />
-        <item itemvalue="HTTP 요청.generated-requests | #14" />
-        <item itemvalue="HTTP 요청.generated-requests | ##########################################################################################" />
-        <item itemvalue="HTTP 요청.generated-requests | 로그인" />
+        <item itemvalue="HTTP 요청.generated-requests | #13" />
         <item itemvalue="HTTP 요청.generated-requests | 코멘트 달기" />
+        <item itemvalue="HTTP 요청.generated-requests | movies 수정하기" />
+        <item itemvalue="HTTP 요청.generated-requests | ##########################################################################################" />
       </list>
     </recent_temporary>
   </component>
@@ -227,21 +234,7 @@
       <workItem from="1666667197837" duration="1661000" />
       <workItem from="1666746721690" duration="108000" />
       <workItem from="1666746848880" duration="4919000" />
-      <workItem from="1666761048632" duration="10691000" />
-    </task>
-    <task id="LOCAL-00017" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
-      <created>1666516937759</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1666516937759</updated>
-    </task>
-    <task id="LOCAL-00018" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
-      <created>1666522737939</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1666522737939</updated>
+      <workItem from="1666761048632" duration="14609000" />
     </task>
     <task id="LOCAL-00019" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
       <created>1666525926973</created>
@@ -572,7 +565,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666773379538</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="토큰 유효기간 늘림">
+      <created>1666780269580</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1666780269580</updated>
+    </task>
+    <task id="LOCAL-00067" summary="토큰 유효기간 늘림">
+      <created>1666780284077</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1666780284077</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +603,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="작업 시~작" />
     <MESSAGE value="CommonRequestDto, Timestamped 추가" />
     <MESSAGE value="CommonResponseDto 이름 수정" />
     <MESSAGE value="줄기 테스트" />
@@ -621,7 +627,8 @@
     <MESSAGE value="원상태 복구 모드" />
     <MESSAGE value="헤더값 읽어 지는지" />
     <MESSAGE value="Entity 자료형 변경&#10;varchar(255) -&gt; longtext" />
-    <option name="LAST_COMMIT_MESSAGE" value="Entity 자료형 변경&#10;varchar(255) -&gt; longtext" />
+    <MESSAGE value="토큰 유효기간 늘림" />
+    <option name="LAST_COMMIT_MESSAGE" value="토큰 유효기간 늘림" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

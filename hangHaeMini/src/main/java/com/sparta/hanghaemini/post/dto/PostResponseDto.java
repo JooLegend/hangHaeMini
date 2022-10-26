@@ -1,5 +1,6 @@
 package com.sparta.hanghaemini.post.dto;
 
+import com.sparta.hanghaemini.comment.entity.Comment;
 import com.sparta.hanghaemini.post.entity.Post;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,7 +16,6 @@ public class PostResponseDto {
     private String title;
     private String content;
     private String imgUrl;
-    private List<String> comments;
 
     //그냥 post로 반환하면 account 엔티티가 반환되는데 그걸 postResponseDto를 사용해서 막음
     public PostResponseDto(Post post) {
@@ -24,6 +24,5 @@ public class PostResponseDto {
         this.title = post.getTitle();
         this.content = post.getContent();
         this.imgUrl = post.getImgUrl();
-        this.comments = null;
     }
 }
