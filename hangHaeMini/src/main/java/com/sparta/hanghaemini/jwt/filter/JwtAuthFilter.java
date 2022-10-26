@@ -25,9 +25,9 @@ public class JwtAuthFilter extends OncePerRequestFilter {
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
             throws ServletException, IOException {
+        System.out.println("======================================필터를 지나가는중======================================");
         String servletPath = request.getServletPath();
         String accessToken = jwtUtil.getHeaderToken(request);
-        System.out.println("======================================필터를 지나가는중======================================");
 
         if(accessToken != null && !servletPath.equals("/account/logout")){
             int state = jwtUtil.actokenValidation(accessToken);

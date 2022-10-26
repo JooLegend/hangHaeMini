@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="프론트와 주소 맞추기 및 nickname 입력">
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/controller/Accountcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/controller/Accountcontroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/comment/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/comment/controller/CommentController.java" afterDir="false" />
-    </list>
+    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="어디를 지나고 있는가" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +118,7 @@
       <recent name="C:\Users\rbqja\hanhea99\hangHaeMini\hangHaeMini" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.HangHaeMiniApplication (2)">
+  <component name="RunManager" selected="Gradle.hangHaeMini [build]">
     <configuration name="hangHaeMini [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -187,8 +184,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP 요청.generated-requests | #14" />
         <item itemvalue="Gradle.hangHaeMini [build]" />
+        <item itemvalue="HTTP 요청.generated-requests | #14" />
         <item itemvalue="HTTP 요청.generated-requests | ##########################################################################################" />
         <item itemvalue="HTTP 요청.generated-requests | 로그인" />
         <item itemvalue="HTTP 요청.generated-requests | 코멘트 달기" />
@@ -227,21 +224,7 @@
       <workItem from="1666667197837" duration="1661000" />
       <workItem from="1666746721690" duration="108000" />
       <workItem from="1666746848880" duration="4919000" />
-      <workItem from="1666761048632" duration="3637000" />
-    </task>
-    <task id="LOCAL-00004" summary="줄기 테스트">
-      <created>1666356621472</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1666356621472</updated>
-    </task>
-    <task id="LOCAL-00005" summary="logout만 하면됨">
-      <created>1666457358970</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1666457358970</updated>
+      <workItem from="1666761048632" duration="4164000" />
     </task>
     <task id="LOCAL-00006" summary="HEADER 일정하지 않은 버전">
       <created>1666459062003</created>
@@ -572,7 +555,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666765919790</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="어디를 지나고 있는가">
+      <created>1666766038287</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1666766038287</updated>
+    </task>
+    <task id="LOCAL-00054" summary="어디를 지나고 있는가">
+      <created>1666766076785</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1666766076785</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,7 +614,8 @@
     <MESSAGE value="gitignore 테스트" />
     <MESSAGE value="mysql 테스트" />
     <MESSAGE value="프론트와 주소 맞추기 및 nickname 입력" />
-    <option name="LAST_COMMIT_MESSAGE" value="프론트와 주소 맞추기 및 nickname 입력" />
+    <MESSAGE value="어디를 지나고 있는가" />
+    <option name="LAST_COMMIT_MESSAGE" value="어디를 지나고 있는가" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
