@@ -41,7 +41,7 @@ public class Accountcontroller {
         return accountservice.login(request, response);
     }
 
-    @PostMapping("/logout")
+    @DeleteMapping("/logout")
     public ResponseEntity<CommonResponseDto<String>> logout(@RequestHeader Map<String, String> data){
         return accountservice.logout(data.get("access_token"));
     }
