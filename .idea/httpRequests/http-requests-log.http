@@ -1,3 +1,9 @@
+GET http://localhost:8080/movies/show/
+
+<> 2022-10-26T145302.200.json
+
+###
+
 POST http://localhost:8080/post
 Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMiIsImV4cCI6MTY2NjYzMDQ2MiwiaWF0IjoxNjY2NjMwMzQyfQ.uVY6fdz--5lIfvwE-2KGxv5ruDbUCbQ_rpydjGCawQo
 Content-Type: application/json
@@ -536,13 +542,6 @@ Content-Type: application/json
 }
 
 <> 2022-10-23T045908.200.json
-
-###
-
-DELETE http://localhost:8080/api/post/1
-Access_Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhc2Rhc2RmMSIsImV4cCI6MTY2NjQ2ODgzNSwiaWF0IjoxNjY2NDY4NzE1fQ.5eLKBLvsEBQLOkJV2Fd0a1tF4iX53sUIdsbwy_NLXuo
-
-<> 2022-10-23T045901.200.json
 
 ###
 

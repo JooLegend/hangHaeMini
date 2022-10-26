@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="mysql 테스트">
+    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="프론트와 주소 맞추기 및 nickname 입력">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/service/Accountservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/account/service/Accountservice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/comment/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/comment/controller/CommentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/controller/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +123,7 @@
       <recent name="C:\Users\rbqja\hanhea99\hangHaeMini\hangHaeMini" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.hangHaeMini [build]">
+  <component name="RunManager" selected="Spring Boot.HangHaeMiniApplication (2)">
     <configuration name="hangHaeMini [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -155,16 +154,13 @@
     <configuration name="generated-requests | 로그인" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="로그인" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
+    <configuration name="generated-requests | #14" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="14" requestIdentifier="#14" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
     <configuration name="generated-requests | ##########################################################################################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="##########################################################################################" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | post 삭제하기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="post 삭제하기" runType="단일 요청 실행">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | post 상세페이지" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="8" requestIdentifier="post 상세페이지" runType="단일 요청 실행">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | 메인페이지의 포스트 정보 불러오기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="10" requestIdentifier="메인페이지의 포스트 정보 불러오기" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="HangHaeMiniApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -193,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP 요청.generated-requests | #14" />
         <item itemvalue="Gradle.hangHaeMini [build]" />
         <item itemvalue="HTTP 요청.generated-requests | ##########################################################################################" />
         <item itemvalue="HTTP 요청.generated-requests | 로그인" />
         <item itemvalue="HTTP 요청.generated-requests | 코멘트 달기" />
-        <item itemvalue="HTTP 요청.generated-requests | 메인페이지의 포스트 정보 불러오기" />
       </list>
     </recent_temporary>
   </component>
@@ -233,21 +229,7 @@
       <workItem from="1666667197837" duration="1661000" />
       <workItem from="1666746721690" duration="108000" />
       <workItem from="1666746848880" duration="4919000" />
-      <workItem from="1666761048632" duration="768000" />
-    </task>
-    <task id="LOCAL-00001" summary="맨처음">
-      <created>1666316222227</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1666316222228</updated>
-    </task>
-    <task id="LOCAL-00002" summary="작업 시~작">
-      <created>1666352998549</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1666352998549</updated>
+      <workItem from="1666761048632" duration="3512000" />
     </task>
     <task id="LOCAL-00003" summary="CommonResponseDto 이름 수정">
       <created>1666356158687</created>
@@ -578,7 +560,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666751919311</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="프론트와 주소 맞추기 및 nickname 입력">
+      <created>1666762979309</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1666762979309</updated>
+    </task>
+    <task id="LOCAL-00051" summary="프론트와 주소 맞추기 및 nickname 입력">
+      <created>1666763041825</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1666763041825</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,7 +618,8 @@
     <MESSAGE value="리플레시 토큰 있는걸로 코드 수정" />
     <MESSAGE value="gitignore 테스트" />
     <MESSAGE value="mysql 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="mysql 테스트" />
+    <MESSAGE value="프론트와 주소 맞추기 및 nickname 입력" />
+    <option name="LAST_COMMIT_MESSAGE" value="프론트와 주소 맞추기 및 nickname 입력" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
