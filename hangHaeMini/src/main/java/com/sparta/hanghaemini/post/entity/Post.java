@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.sql.Clob;
 import java.util.List;
 
 @Setter
@@ -29,8 +30,9 @@ public class Post extends Timestamped {
     @Column(nullable = false)
     private String content;
 
+    @Lob
     @Column(nullable = false)
-    private String imgUrl;
+    private Clob imgUrl;
 
     @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "post")
     private List<Comment> comments;

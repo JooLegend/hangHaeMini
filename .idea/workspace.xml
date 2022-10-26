@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="어디를 지나고 있는가">
+    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="헤더값 읽어 지는지">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/dto/PostRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/dto/PostRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/dto/PostResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/dto/PostResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/dto/PostsResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/dto/PostsResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/entity/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/post/entity/Post.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,35 +230,7 @@
       <workItem from="1666667197837" duration="1661000" />
       <workItem from="1666746721690" duration="108000" />
       <workItem from="1666746848880" duration="4919000" />
-      <workItem from="1666761048632" duration="4805000" />
-    </task>
-    <task id="LOCAL-00007" summary="HEADER 일정한 버전">
-      <created>1666459636393</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1666459636393</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Post 병합">
-      <created>1666461756556</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1666461756556</updated>
-    </task>
-    <task id="LOCAL-00009" summary="체크아웃전 저장(의미없는)">
-      <created>1666495979930</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1666495979930</updated>
-    </task>
-    <task id="LOCAL-00010" summary="context-path 기능 삭제">
-      <created>1666511312100</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1666511312100</updated>
+      <workItem from="1666761048632" duration="6788000" />
     </task>
     <task id="LOCAL-00011" summary="cors 설정 테스트">
       <created>1666514300755</created>
@@ -572,7 +547,35 @@
       <option name="project" value="LOCAL" />
       <updated>1666766868372</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="post 모든 권한 테스트">
+      <created>1666767246593</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1666767246593</updated>
+    </task>
+    <task id="LOCAL-00057" summary="원상태 복구 모드">
+      <created>1666767502617</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1666767502617</updated>
+    </task>
+    <task id="LOCAL-00058" summary="헤더값 읽어 지는지">
+      <created>1666768811436</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1666768811436</updated>
+    </task>
+    <task id="LOCAL-00059" summary="헤더값 읽어 지는지">
+      <created>1666768862710</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1666768862710</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +621,10 @@
     <MESSAGE value="mysql 테스트" />
     <MESSAGE value="프론트와 주소 맞추기 및 nickname 입력" />
     <MESSAGE value="어디를 지나고 있는가" />
-    <option name="LAST_COMMIT_MESSAGE" value="어디를 지나고 있는가" />
+    <MESSAGE value="post 모든 권한 테스트" />
+    <MESSAGE value="원상태 복구 모드" />
+    <MESSAGE value="헤더값 읽어 지는지" />
+    <option name="LAST_COMMIT_MESSAGE" value="헤더값 읽어 지는지" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
