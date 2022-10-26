@@ -14,7 +14,7 @@ public class PostResponseDto {
     private String nickname;
     private String title;
     private String content;
-    private Clob imgUrl;
+    private String imgUrl;
     private List<String> comments;
 
     //그냥 post로 반환하면 account 엔티티가 반환되는데 그걸 postResponseDto를 사용해서 막음

@@ -10,5 +10,5 @@ import java.sql.Clob;
 public class PostRequestDto {
     private String title;
     private String content;
-    private Clob imgUrl;
+    private String imgUrl;
 }

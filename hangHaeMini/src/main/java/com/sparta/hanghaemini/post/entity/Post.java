@@ -32,7 +32,7 @@ public class Post extends Timestamped {
 
     @Lob
     @Column(nullable = false)
-    private Clob imgUrl;
+    private String imgUrl;
 
     @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "post")
     private List<Comment> comments;

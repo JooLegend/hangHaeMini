@@ -28,9 +28,12 @@ public class JwtAuthFilter extends OncePerRequestFilter {
         System.out.println("======================================필터를 지나가는중======================================");
         String servletPath = request.getServletPath();
         String accessToken = jwtUtil.getHeaderToken(request);
+        System.out.println("토큰 값은: " + accessToken);
+        System.out.println("토큰이 다르게: " + request.getHeader("access_token"));
 
         if(accessToken != null && !servletPath.equals("/account/logout")){
             int state = jwtUtil.actokenValidation(accessToken);
+            System.out.println("현재 토큰의 상태 값은: "+state);
             if(state == 3){
                 jwtExceptionHandler(response, "Unsorport Token", HttpStatus.OK);
                 return;
