@@ -19,12 +19,14 @@ class CommentController {
 
     @PostMapping("/comments/{postid}")
     public ResponseEntity<CommonResponseDto<Comment>> comment(@RequestBody CommentRequestDto commentRequestDto, @AuthenticationPrincipal UserDetailsImpl userDetails, @PathVariable Long postid){
+        System.out.println("=================커멘트 달기=================");
        return commentService.postComment(commentRequestDto,userDetails.getAccount(),postid);
     }
 
 
     @DeleteMapping("/comments/{postid}/{commentid}")
     public ResponseEntity<CommonResponseDto<String>> delete(@AuthenticationPrincipal UserDetailsImpl userDetails,@PathVariable Long postid,@PathVariable Long commentid){
+        System.out.println("=================커멘트 삭제=================");
         return commentService.delete(userDetails.getAccount(),postid,commentid);
     }
 }
