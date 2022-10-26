@@ -22,6 +22,7 @@ public class PostService {
     private final PostRepository postRepository;
 
     public ResponseEntity<CommonResponseDto<PostResponseDto>> createPost(PostRequestDto postRequestDto, Account account) {
+        System.out.println("잘 받아와 졋나요?:" + postRequestDto.getImgUrl());
         //userdetail정보를 받아와서, 실제 포스트에 저장된 유저아이디 값이랑 비교 하는게 들어잇어요
         Post post = new Post(postRequestDto,account);//넵 보여주세요
         PostResponseDto postResponseDto = new PostResponseDto(postRepository.save(post));
