@@ -27,10 +27,10 @@ class CommentController {
         return commentService.showComments(postid);
     }
 
-    @PostMapping("/comments/{postid}")
-    public ResponseEntity<CommonResponseDto<CommentResponseDto>> addcomments(@RequestBody CommentRequestDto commentRequestDto, @AuthenticationPrincipal UserDetailsImpl userDetails, @PathVariable Long postid){
+    @PostMapping("/comments")
+    public ResponseEntity<CommonResponseDto<CommentResponseDto>> addcomments(@RequestBody CommentRequestDto commentRequestDto, @AuthenticationPrincipal UserDetailsImpl userDetails){
         System.out.println("=================커멘트 달기=================");
-       return commentService.postComment(commentRequestDto,userDetails.getAccount(),postid);
+       return commentService.postComment(commentRequestDto,userDetails.getAccount());
     }
 
 

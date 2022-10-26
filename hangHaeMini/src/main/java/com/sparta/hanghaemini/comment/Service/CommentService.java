@@ -37,10 +37,10 @@ public class CommentService {
     }
 
     @Transactional
-    public ResponseEntity<CommonResponseDto<CommentResponseDto>> postComment(CommentRequestDto commentRequestDto, Account account, Long id){
+    public ResponseEntity<CommonResponseDto<CommentResponseDto>> postComment(CommentRequestDto commentRequestDto, Account account){
         Comment comment = Comment.builder()
                 .comment(commentRequestDto.getComment())
-                .post(postRepository.findPostByPostId(id))
+                .post(postRepository.findPostByPostId(commentRequestDto.getNewid()))
                 .account(account)
                 .build();
         CommentResponseDto commentResponseDto = new CommentResponseDto(commentRepository.save(comment));
