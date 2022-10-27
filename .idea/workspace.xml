@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="https 시험하기">
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/hangHaeMini-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/resources/keystore.p12" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,8 +118,8 @@
       <recent name="C:\Users\rbqja\hanhea99\hangHaeMini\hangHaeMini\src\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\rbqja\hanhea99\hangHaeMini\hangHaeMini" />
       <recent name="C:\Users\rbqja\hanhea99\hangHaeMini\hangHaeMini\src\main\resources" />
+      <recent name="C:\Users\rbqja\hanhea99\hangHaeMini\hangHaeMini" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.hangHaeMini [build]">
@@ -250,14 +250,7 @@
       <workItem from="1666847535427" duration="184000" />
       <workItem from="1666848313789" duration="1745000" />
       <workItem from="1666858097662" duration="3709000" />
-      <workItem from="1666867144579" duration="2780000" />
-    </task>
-    <task id="LOCAL-00036" summary="globalexcepition">
-      <created>1666593545353</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1666593545353</updated>
+      <workItem from="1666867144579" duration="3135000" />
     </task>
     <task id="LOCAL-00037" summary="globalexcepition">
       <created>1666594116532</created>
@@ -595,7 +588,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666870436216</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="https 시험하기">
+      <created>1666870499015</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1666870499015</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
