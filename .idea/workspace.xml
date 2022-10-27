@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="토큰 유효기간 2분">
+    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="토큰 유효기간 10, 60분 및 sout 삭제">
+      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/resources/keystore.p12" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/hangHaeMini-0.0.1-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +110,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;64a99998001ddf45a4794cc5c58aa0d4&quot;
   }
@@ -119,9 +121,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rbqja\hanhea99\hangHaeMini\hangHaeMini" />
+      <recent name="C:\Users\rbqja\hanhea99\hangHaeMini\hangHaeMini\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.HangHaeMiniApplication (2)">
+  <component name="RunManager" selected="Gradle.hangHaeMini [build]">
     <configuration name="hangHaeMini [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -207,7 +210,6 @@
       <list>
         <item itemvalue="Gradle.hangHaeMini [build]" />
         <item itemvalue="Gradle.hangHaeMini [bootJar]" />
-        <item itemvalue="HTTP 요청.generated-requests | 코멘트 달기" />
         <item itemvalue="HTTP 요청.generated-requests | ##########################################################################################" />
         <item itemvalue="HTTP 요청.generated-requests | 로그인" />
       </list>
@@ -246,14 +248,11 @@
       <workItem from="1666746721690" duration="108000" />
       <workItem from="1666746848880" duration="4919000" />
       <workItem from="1666761048632" duration="29379000" />
-      <workItem from="1666836335463" duration="5100000" />
-    </task>
-    <task id="LOCAL-00032" summary="10차시도">
-      <created>1666583306364</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1666583306364</updated>
+      <workItem from="1666836335463" duration="5622000" />
+      <workItem from="1666847535427" duration="184000" />
+      <workItem from="1666848313789" duration="1745000" />
+      <workItem from="1666858097662" duration="3709000" />
+      <workItem from="1666867144579" duration="2093000" />
     </task>
     <task id="LOCAL-00033" summary="10차시도">
       <created>1666583386018</created>
@@ -591,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666843334205</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="토큰 유효기간 10, 60분 및 sout 삭제">
+      <created>1666847168825</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1666847168825</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +621,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="HEADER 일정한 계정부분 완료" />
     <MESSAGE value="Post 병합" />
     <MESSAGE value="체크아웃전 저장(의미없는)" />
     <MESSAGE value="context-path 기능 삭제" />
@@ -640,7 +645,8 @@
     <MESSAGE value="logout 메소드 바꿈" />
     <MESSAGE value="토큰 유효기간 1분, 2분" />
     <MESSAGE value="토큰 유효기간 2분" />
-    <option name="LAST_COMMIT_MESSAGE" value="토큰 유효기간 2분" />
+    <MESSAGE value="토큰 유효기간 10, 60분 및 sout 삭제" />
+    <option name="LAST_COMMIT_MESSAGE" value="토큰 유효기간 10, 60분 및 sout 삭제" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
