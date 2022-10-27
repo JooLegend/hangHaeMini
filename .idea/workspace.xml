@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="토큰 유효기간 2분">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +121,7 @@
       <recent name="C:\Users\rbqja\hanhea99\hangHaeMini\hangHaeMini" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.hangHaeMini [build]">
+  <component name="RunManager" selected="Spring Boot.HangHaeMiniApplication (2)">
     <configuration name="hangHaeMini [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -245,14 +246,7 @@
       <workItem from="1666746721690" duration="108000" />
       <workItem from="1666746848880" duration="4919000" />
       <workItem from="1666761048632" duration="29379000" />
-      <workItem from="1666836335463" duration="3862000" />
-    </task>
-    <task id="LOCAL-00031" summary="10차시도">
-      <created>1666547889845</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1666547889845</updated>
+      <workItem from="1666836335463" duration="5100000" />
     </task>
     <task id="LOCAL-00032" summary="10차시도">
       <created>1666583306364</created>
@@ -590,7 +584,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666842767551</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="토큰 유효기간 2분">
+      <created>1666843334205</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1666843334205</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

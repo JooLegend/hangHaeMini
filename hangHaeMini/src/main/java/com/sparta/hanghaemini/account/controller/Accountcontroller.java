@@ -19,25 +19,21 @@ public class Accountcontroller {
 
     @PostMapping("/checkid")
     public ResponseEntity<CommonResponseDto<String>> checkid(@RequestBody Map<String, String> request){
-        System.out.println("======================================아이디 체크======================================");
         return accountservice.checkid(request);
     }
 
     @PostMapping("/checkname")
     public ResponseEntity<CommonResponseDto<String>> checkname(@RequestBody Map<String, String> request){
-        System.out.println("======================================닉네임 체크======================================");
         return accountservice.checkname(request);
     }
 
     @PostMapping("/signup")
     public ResponseEntity<CommonResponseDto<String>> signup(@RequestBody AccountReqDto request){
-        System.out.println("======================================회원가입 하기======================================");
         return accountservice.signup(request);
     }
 
     @PostMapping("/login")
     public ResponseEntity<CommonResponseDto<String>> login(@RequestBody LoginResDto request, HttpServletResponse response){
-        System.out.println("======================================로그인 하기======================================");
         return accountservice.login(request, response);
     }
 
