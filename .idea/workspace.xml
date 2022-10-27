@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="토큰 유효기간 1분, 2분">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/hangHaeMini-0.0.1-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/filter/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/filter/JwtAuthFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -247,21 +246,7 @@
       <workItem from="1666746721690" duration="108000" />
       <workItem from="1666746848880" duration="4919000" />
       <workItem from="1666761048632" duration="29379000" />
-      <workItem from="1666836335463" duration="322000" />
-    </task>
-    <task id="LOCAL-00026" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
-      <created>1666527910977</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1666527910977</updated>
-    </task>
-    <task id="LOCAL-00027" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
-      <created>1666528004072</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1666528004072</updated>
+      <workItem from="1666836335463" duration="2148000" />
     </task>
     <task id="LOCAL-00028" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
       <created>1666542807404</created>
@@ -592,7 +577,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666807380185</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="토큰 유효기간 1분, 2분">
+      <created>1666836670184</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1666836670186</updated>
+    </task>
+    <task id="LOCAL-00076" summary="토큰 유효기간 1분, 2분">
+      <created>1666836904743</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1666836904743</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
