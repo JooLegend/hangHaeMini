@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="토큰 유효기간 10, 60분 및 sout 삭제">
-      <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/resources/keystore.p12" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/hangHaeMini-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="https 시험하기">
+      <change afterPath="$PROJECT_DIR$/hangHaeMini/hangHaeMini-0.0.1-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,28 +250,7 @@
       <workItem from="1666847535427" duration="184000" />
       <workItem from="1666848313789" duration="1745000" />
       <workItem from="1666858097662" duration="3709000" />
-      <workItem from="1666867144579" duration="2093000" />
-    </task>
-    <task id="LOCAL-00033" summary="10차시도">
-      <created>1666583386018</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1666583386018</updated>
-    </task>
-    <task id="LOCAL-00034" summary="10차시도">
-      <created>1666591258248</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1666591258248</updated>
-    </task>
-    <task id="LOCAL-00035" summary="globalexcepition">
-      <created>1666592598121</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1666592598121</updated>
+      <workItem from="1666867144579" duration="2780000" />
     </task>
     <task id="LOCAL-00036" summary="globalexcepition">
       <created>1666593545353</created>
@@ -597,7 +574,28 @@
       <option name="project" value="LOCAL" />
       <updated>1666847168825</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="토큰 유효기간 10, 60분 및 sout 삭제">
+      <created>1666869296203</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1666869296203</updated>
+    </task>
+    <task id="LOCAL-00083" summary="https 시험하기">
+      <created>1666869322110</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1666869322110</updated>
+    </task>
+    <task id="LOCAL-00084" summary="https 시험하기">
+      <created>1666870436215</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1666870436216</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,7 +619,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Post 병합" />
     <MESSAGE value="체크아웃전 저장(의미없는)" />
     <MESSAGE value="context-path 기능 삭제" />
     <MESSAGE value="cors 설정 테스트" />
@@ -646,7 +643,8 @@
     <MESSAGE value="토큰 유효기간 1분, 2분" />
     <MESSAGE value="토큰 유효기간 2분" />
     <MESSAGE value="토큰 유효기간 10, 60분 및 sout 삭제" />
-    <option name="LAST_COMMIT_MESSAGE" value="토큰 유효기간 10, 60분 및 sout 삭제" />
+    <MESSAGE value="https 시험하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="https 시험하기" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
