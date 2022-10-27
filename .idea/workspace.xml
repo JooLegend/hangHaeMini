@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="토큰 유효기간 1분, 2분">
+    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="토큰 유효기간 2분">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/filter/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/filter/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/hangHaeMini-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/security/WebSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,21 +247,7 @@
       <workItem from="1666746721690" duration="108000" />
       <workItem from="1666746848880" duration="4919000" />
       <workItem from="1666761048632" duration="29379000" />
-      <workItem from="1666836335463" duration="2148000" />
-    </task>
-    <task id="LOCAL-00028" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
-      <created>1666542807404</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1666542807404</updated>
-    </task>
-    <task id="LOCAL-00029" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
-      <created>1666542862866</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1666542862866</updated>
+      <workItem from="1666836335463" duration="3496000" />
     </task>
     <task id="LOCAL-00030" summary="10차시도">
       <created>1666547787702</created>
@@ -591,7 +578,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666836904743</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="토큰 유효기간 2분">
+      <created>1666841278240</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1666841278240</updated>
+    </task>
+    <task id="LOCAL-00078" summary="토큰 유효기간 2분">
+      <created>1666841334433</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1666841334433</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +616,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="HEADER 일정한 버전" />
     <MESSAGE value="HEADER 일정한 계정부분 완료" />
     <MESSAGE value="Post 병합" />
     <MESSAGE value="체크아웃전 저장(의미없는)" />
@@ -640,7 +640,8 @@
     <MESSAGE value="comment 받는 형식 변환" />
     <MESSAGE value="logout 메소드 바꿈" />
     <MESSAGE value="토큰 유효기간 1분, 2분" />
-    <option name="LAST_COMMIT_MESSAGE" value="토큰 유효기간 1분, 2분" />
+    <MESSAGE value="토큰 유효기간 2분" />
+    <option name="LAST_COMMIT_MESSAGE" value="토큰 유효기간 2분" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
