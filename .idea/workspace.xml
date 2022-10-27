@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="https 시험하기">
       <change afterPath="$PROJECT_DIR$/hangHaeMini/src/main/resources/keystore.p12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,11 +119,11 @@
       <recent name="C:\Users\rbqja\hanhea99\hangHaeMini\hangHaeMini\src\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\rbqja\hanhea99\hangHaeMini\hangHaeMini\src\main\resources" />
       <recent name="C:\Users\rbqja\hanhea99\hangHaeMini\hangHaeMini" />
+      <recent name="C:\Users\rbqja\hanhea99\hangHaeMini\hangHaeMini\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.hangHaeMini [build]">
+  <component name="RunManager" selected="Spring Boot.HangHaeMiniApplication (2)">
     <configuration name="hangHaeMini [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -165,6 +166,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="hangHaeMini [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hangHaeMini" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="generated-requests | 코멘트 삭제" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="11" requestIdentifier="코멘트 삭제" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
@@ -172,12 +194,6 @@
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | ##########################################################################################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="##########################################################################################" runType="단일 요청 실행">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | post 삭제하기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="post 삭제하기" runType="단일 요청 실행">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | 코멘트 달기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="11" requestIdentifier="코멘트 달기" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="HangHaeMiniApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -207,6 +223,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.hangHaeMini [build]" />
+        <item itemvalue="Gradle.hangHaeMini [clean]" />
         <item itemvalue="Gradle.hangHaeMini [bootJar]" />
         <item itemvalue="HTTP 요청.generated-requests | ##########################################################################################" />
         <item itemvalue="HTTP 요청.generated-requests | 로그인" />
@@ -250,14 +267,7 @@
       <workItem from="1666847535427" duration="184000" />
       <workItem from="1666848313789" duration="1745000" />
       <workItem from="1666858097662" duration="3709000" />
-      <workItem from="1666867144579" duration="3135000" />
-    </task>
-    <task id="LOCAL-00037" summary="globalexcepition">
-      <created>1666594116532</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1666594116532</updated>
+      <workItem from="1666867144579" duration="3842000" />
     </task>
     <task id="LOCAL-00038" summary="globalexcepition">
       <created>1666594246928</created>
@@ -595,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666870499015</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="https 시험하기">
+      <created>1666871187471</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1666871187471</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
