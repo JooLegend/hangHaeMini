@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="logout 메소드 바꿈">
-      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/util/JwtUtil.java" afterDir="false" />
+    <list default="true" id="9fe5857d-9e99-4626-9fee-5f8094ef0267" name="변경" comment="토큰 유효기간 1분, 2분">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/hangHaeMini-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/filter/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hangHaeMini/src/main/java/com/sparta/hanghaemini/jwt/filter/JwtAuthFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,10 +165,10 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | 코멘트 달기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="11" requestIdentifier="코멘트 달기" runType="단일 요청 실행">
+    <configuration name="generated-requests | 코멘트 삭제" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="11" requestIdentifier="코멘트 삭제" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | 코멘트 삭제" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="11" requestIdentifier="코멘트 삭제" runType="단일 요청 실행">
+    <configuration name="generated-requests | 로그인" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="로그인" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | ##########################################################################################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="##########################################################################################" runType="단일 요청 실행">
@@ -175,7 +177,7 @@
     <configuration name="generated-requests | post 삭제하기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="post 삭제하기" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | 로그인" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="로그인" runType="단일 요청 실행">
+    <configuration name="generated-requests | 코멘트 달기" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="11" requestIdentifier="코멘트 달기" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
     <configuration name="HangHaeMiniApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -244,14 +246,8 @@
       <workItem from="1666667197837" duration="1661000" />
       <workItem from="1666746721690" duration="108000" />
       <workItem from="1666746848880" duration="4919000" />
-      <workItem from="1666761048632" duration="25801000" />
-    </task>
-    <task id="LOCAL-00025" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
-      <created>1666527533706</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1666527533706</updated>
+      <workItem from="1666761048632" duration="29379000" />
+      <workItem from="1666836335463" duration="322000" />
     </task>
     <task id="LOCAL-00026" summary="cors 오늘 마지막 시도!!! 이거 안되면 나 못해">
       <created>1666527910977</created>
@@ -589,7 +585,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666807023928</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="토큰 유효기간 1분, 2분">
+      <created>1666807380185</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1666807380185</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,7 +616,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="HEADER 일정하지 않은 버전" />
     <MESSAGE value="HEADER 일정한 버전" />
     <MESSAGE value="HEADER 일정한 계정부분 완료" />
     <MESSAGE value="Post 병합" />
@@ -638,7 +640,8 @@
     <MESSAGE value="PATH 쉽게 읽기" />
     <MESSAGE value="comment 받는 형식 변환" />
     <MESSAGE value="logout 메소드 바꿈" />
-    <option name="LAST_COMMIT_MESSAGE" value="logout 메소드 바꿈" />
+    <MESSAGE value="토큰 유효기간 1분, 2분" />
+    <option name="LAST_COMMIT_MESSAGE" value="토큰 유효기간 1분, 2분" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

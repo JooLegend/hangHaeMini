@@ -36,7 +36,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
             int state = jwtUtil.actokenValidation(accessToken);
             System.out.println("현재 토큰의 상태 값은: "+state);
             if(state == 3){
-                jwtExceptionHandler(response, "Unsorport Token", HttpStatus.OK);
+                jwtExceptionHandler(response, "Unsorport Token", HttpStatus.PROXY_AUTHENTICATION_REQUIRED);
                 return;
             }
             String userid = jwtUtil.getClamsFromToken(accessToken).getSubject();
@@ -46,7 +46,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
                     //유효기간 정상시에 토큰 재발급
                     response.setHeader(JwtUtil.Access_Token, jwtUtil.createToken(userid, JwtUtil.Access_Token));
                 }else{
-                    jwtExceptionHandler(response, "login please", HttpStatus.OK);
+                    jwtExceptionHandler(response, "login please", HttpStatus.PROXY_AUTHENTICATION_REQUIRED);
                     return;
                 }
             }
